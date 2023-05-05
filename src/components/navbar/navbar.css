@@ -1,9 +1,10 @@
 /* navbar */
 .navbar-fixe {
-  position: fixed;
+  position: fixed !important;
   width: 90vw;
   align-self: center;
-  top: 2vw;
+  top: 35px;
+  z-index: 2;
 }
 .navbar {
   display: flex;
@@ -20,12 +21,68 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
-.navbar > div {
+.navbar > .navbar-desk {
   display: flex;
   gap: 3vw;
 }
-.navbar > div > a {
+.navbar > .navbar-desk > a {
   color: rgb(255, 255, 255);
   font-weight: bold;
   font-size: 18px;
+}
+.navbar > button {
+  border-image: linear-gradient(to right, #5473e3, #fa3a7f, #ffdd0b) 3;
+  width: 150px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #000000;
+  color: white;
+  cursor: pointer;
+}
+.navbar-mob {
+  display: none;
+}
+
+.navbar-mob > button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+.navbar-mob > button>img{
+    width: 40px;
+}
+
+.menu-div {
+  position: absolute;
+  right: 16px;
+  top: 25px;
+  padding: 20px 10px;
+  height: 95vh;
+  width: 93vw;
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.9);
+
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "NeueMachinaRegular";
+
+  gap: 15vw;
+
+}
+@media screen and (max-width: 850px) {
+  .navbar > .navbar-desk {
+    display: none;
+  }
+  .navbar-mob {
+    display: block;
+  }
 }

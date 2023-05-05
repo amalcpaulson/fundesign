@@ -1,7 +1,9 @@
 import React from "react";
 import "./home.css";
-import { logowhite, logoblack } from "../../assets";
 import Navbar from "../../components/navbar/Navbar";
+import { AiOutlineArrowRight } from "react-icons/ai";
+import circle from '../../assets/circle.png'
+
 const Home = () => {
   document.addEventListener("DOMContentLoaded", function () {
     const container = document.getElementById("container");
@@ -22,7 +24,17 @@ const Home = () => {
       <div className="home-about">
         <div>
           <div id="container"></div>
-          <div className="home-about-content">hello all</div>
+          <div className="home-about-content">
+            <div>
+              <h1>We are a culture-driven design community!</h1>
+              <button>
+                Join out community <AiOutlineArrowRight />
+              </button>
+            </div>
+            <div>
+              <img style={{width:"15vw"}} src={circle} alt="" />
+            </div>
+          </div>
         </div>
       </div>
       <div className="home-project"></div>
