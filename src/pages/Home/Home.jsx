@@ -1,22 +1,29 @@
 import React from "react";
 import "./home.css";
 import { logowhite, logoblack } from "../../assets";
+import Navbar from "../../components/navbar/Navbar";
 const Home = () => {
+  document.addEventListener("DOMContentLoaded", function () {
+    const container = document.getElementById("container");
+    const n = 1000;
+
+    for (let i = 0; i < n; i++) {
+      const div = document.createElement("div");
+      div.classList.add("box");
+      container.appendChild(div);
+    }
+  });
   return (
     <div className="home-body">
       <span id="splash-overlay" className="splash"></span>
       <span id="welcome" className="z-depth-4"></span>
+      <Navbar />
 
-      <header className="navbar-fixe">
-        <div className="navbar">
-          <a href="/">
-            <img className="nav-logo" src={logoblack} alt="" />
-          </a>
-          <a href="/">Home</a>
-        </div>
-      </header>
       <div className="home-about">
-        <img src={logowhite} alt="" />
+        <div>
+          <div id="container"></div>
+          <div className="home-about-content">hello all</div>
+        </div>
       </div>
       <div className="home-project"></div>
     </div>
