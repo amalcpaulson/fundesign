@@ -1,13 +1,14 @@
 import React from "react";
 import "./home.css";
 import Navbar from "../../components/navbar/Navbar";
+import Company from '../../components/Home/company'
 import { AiOutlineArrowRight } from "react-icons/ai";
-import circle from '../../assets/circle.png'
+import circle from "../../assets/circle.png";
 
 const Home = () => {
   document.addEventListener("DOMContentLoaded", function () {
     const container = document.getElementById("container");
-    const n = 1000;
+    const n = 800;
 
     for (let i = 0; i < n; i++) {
       const div = document.createElement("div");
@@ -16,29 +17,28 @@ const Home = () => {
     }
   });
   return (
-    <div className="home-body">
-      <span id="splash-overlay" className="splash"></span>
-      <span id="welcome" className="z-depth-4"></span>
-      <Navbar />
-
-      <div className="home-about">
-        <div>
-          <div id="container"></div>
-          <div className="home-about-content">
-            <div>
-              <h1>We are a culture-driven design community!</h1>
-              <button>
-                Join out community <AiOutlineArrowRight />
-              </button>
-            </div>
-            <div>
-              <img style={{width:"15vw"}} src={circle} alt="" />
+    <>
+      <div className="home-body">
+        <Navbar />
+        <div className="home-about">
+          <div>
+            <div id="container"></div>
+            <div className="home-about-content">
+              <div>
+                <h1>We are a culture-driven design community!</h1>
+                <button>
+                  Join out community <AiOutlineArrowRight />
+                </button>
+              </div>
+              <div>
+                <img style={{ width: "15vw" }} src={circle} alt="" />
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="home-project"></div>
-    </div>
+      <Company />
+    </>
   );
 };
 

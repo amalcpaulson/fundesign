@@ -1,62 +1,16 @@
 .home-body {
   display: flex;
-  min-height: 100vh;
+  height: 80vh;
   flex-direction: column;
-}
-/* start welcome animation */
-
-.home-body {
-  overflow: hidden;
   background-color: #ffffff;
   -webkit-font-smoothing: antialiased;
-  padding: 20px;
-}
-
-.home-body .splash {
-  height: 0px;
-  padding: 0px;
-  background-color: #000000;
-
-  left: 50%;
-  top: 100%;
-  display: block;
-  box-sizing: initial;
+  padding: 2vh 2vh;
   overflow: hidden;
-  z-index: 2;
-  border-radius: 50%;
-  transform: translate(-50%, -50%);
-  animation: puff 0.5s 1.8s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards,
-    borderRadius 0.2s 2.3s linear forwards;
-}
-
-.home-body #welcome {
-  background: #ffffff;
-  width: 56px;
-  height: 56px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  overflow: hidden;
-  opacity: 0;
-  z-index: 3;
-  transform: translate(-50%, -50%);
-  border-radius: 50%;
-  animation: init 0.5s 0.2s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards,
-    moveDown 1s 0.8s cubic-bezier(0.6, -0.28, 0.735, 0.045) forwards,
-    moveUp 1s 1.8s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards,
-    materia 0.5s 2.7s cubic-bezier(0.86, 0, 0.07, 1) forwards,
-    hide 2s 2.9s ease forwards;
-}
-
-/* moveIn */
-.home-body .navbar-fixe {
-  opacity: 0;
-  animation: moveIn 2s 3.1s ease forwards;
 }
 
 /* about */
 .home-about {
-  height: 100vh;
+  height: 75vh;
   width: 100%;
   display: flex;
   align-items: center;
@@ -64,6 +18,7 @@
   background-color: rgb(0, 0, 0);
   border-radius: 10px;
   z-index: 1;
+  flex-direction: column;
 }
 .home-about > div {
   position: relative;
@@ -72,17 +27,18 @@
 .home-about-content {
   position: absolute;
   color: hsl(0, 0%, 100%);
-  top: 45%;
-  left: 10%;
+  top: 0%;
   z-index: 2;
   display: flex;
-  width: 90vw;
+  width: 100vw;
   align-items: center;
+  justify-content: center;
+  height: 100%;
 }
 
 .home-about-content > div > h1 {
   font-size: 55px;
-   width: 65vw;
+  width: 65vw;
 }
 .home-about-content > div > button {
   display: flex;
@@ -114,98 +70,42 @@
   border-left: 1px solid rgba(255, 255, 255, 0.2);
   z-index: 1;
 }
-@keyframes init {
-  0% {
-    width: 0px;
-    height: 0px;
-  }
-  100% {
-    width: 56px;
-    height: 56px;
-    margin-top: 0px;
-    opacity: 1;
-  }
+
+.home-project {
+  height: 100vh;
+  width: 100vw;
+  background-color: #5473e3;
 }
 
-@keyframes puff {
-  0% {
-    top: 0%;
-    height: 0px;
-    padding: 0px;
-  }
-  100% {
-    top: 50%;
-    height: 100%;
-    padding: 0px 100%;
-  }
+/* company logos */
+
+.company-wrapper {
+  width: 100vw;
+  height: 20vh;
+  padding: 0vh 2vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  gap: 2vh;
+  justify-content: space-between;
+  position: relative;
+  
+}
+.company-wrapper a{
+  height: 13vh;
+}
+.company-wrapper a>img{
+
+  animation: scroll 15s linear 15s infinite alternate forwards;
 }
 
-@keyframes borderRadius {
-  0% {
-    border-radius: 50%;
-  }
-  100% {
-    border-radius: 0px;
-  }
-}
-
-@keyframes moveDown {
-  0% {
-    top: 50%;
-  }
-  50% {
-    top: 40%;
-  }
-  100% {
-    top: 100%;
-  }
-}
-
-@keyframes moveUp {
-  0% {
-    background: #000000;
-    top: 100%;
-  }
-  50% {
-    top: 40%;
-  }
-  100% {
-    top: 50%;
-    background: #ffffff;
-  }
-}
-
-/* @keyframes materia {
-  0% {
-    background: #ffffff;
-  }
-  50% {
-    background: #ffffff;
-    top: 28px;
-  }
-  100% {
-    background: #000000;
-    width: 100%;
-    height: 64px;
-    border-radius: 0px;
-     top: 26px; 
-  }
-} */
-
-@keyframes moveIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes hide {
+@keyframes scroll {
   0% {
     opacity: 1;
+		transform: translateX(0);
   }
   100% {
-    opacity: 0;
+  	opacity: 1;
+		transform: translateX(-100vw)
   }
 }
