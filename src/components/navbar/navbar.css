@@ -1,10 +1,11 @@
 /* navbar */
 .navbar-fixe {
   position: fixed !important;
-  width: 90vw;
+  width: 100vw;
   align-self: center;
   top: 35px;
   z-index: 2;
+  padding: 0px 2vh;
 }
 .navbar {
   display: flex;
@@ -76,6 +77,18 @@ a {
   font-family: "NeueMachinaRegular";
 
   gap: 15vw;
+
+}
+
+.nav-links-menu{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.nav-links-menu>a{
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
 
 }
 @media screen and (max-width: 850px) {

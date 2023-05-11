@@ -1,14 +1,15 @@
 import React from "react";
-import Navbar from "../../components/navbar/Navbar";
-import "./projects.css";
+import "./about.css";
 
-const Projects = () => {
+import Navbar from "../../components/navbar/Navbar";
+
+const about = () => {
   return (
     <>
       <Navbar />
-      <div className="project-body">Project</div>
+      <div className="about-body">About</div>
     </>
   );
 };
 
-export default Projects;
+export default about;

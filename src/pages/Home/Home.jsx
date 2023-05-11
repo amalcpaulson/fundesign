@@ -1,7 +1,7 @@
 import React from "react";
 import "./home.css";
 import Navbar from "../../components/navbar/Navbar";
-import Company from '../../components/Home/company'
+import Company from "../../components/Home/company";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import circle from "../../assets/circle.png";
 
@@ -18,8 +18,9 @@ const Home = () => {
   });
   return (
     <>
+      {" "}
+      <Navbar />
       <div className="home-body">
-        <Navbar />
         <div className="home-about">
           <div>
             <div id="container"></div>

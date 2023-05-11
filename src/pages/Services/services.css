@@ -1,0 +1,9 @@
+.services-body{
+      display: flex;
+  height: 100vh;
+  flex-direction: column;
+  background-color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  padding: 2vh 2vh;
+  overflow: hidden;
+}

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { logowhite } from "../../assets";
 import { BiMenu } from "react-icons/bi";
+import { AiFillCloseCircle } from "react-icons/ai";
 
 import "./navbar.css";
 const Navbar = () => {
@@ -20,30 +21,35 @@ const Navbar = () => {
         </a>
         <div className="navbar-desk">
           <a href="/">Home</a>
-          <a href="/">About</a>
-          <a href="/">Services</a>
-          <a href="/">Partnership</a>
-          <a href="/">Projects</a>
+          <a href="/about">About</a>
+          <a href="/services">Services</a>
+          <a href="/partnership">Partnership</a>
+          <a href="/project">Projects</a>
         </div>
         <div className="navbar-mob">
           <button onClick={openMenu}>
-            <BiMenu style={{ color: "white",fontSize:"40px" }} />
+            <BiMenu style={{ color: "white", fontSize: "40px" }} />
           </button>
         </div>
         {openmenu && (
           <div className="menu-div">
             <div>
-              <button onClick={closeMenu}>
-                <img src="" alt="S" />
+              <button
+                onClick={closeMenu}
+                style={{ backgroundColor: "transparent", border: "none" }}
+              >
+                <AiFillCloseCircle
+                  style={{ color: "white", fontSize: "40px" }}
+                />
               </button>
             </div>
 
             <div className="nav-links-menu">
               <a href="/">Home</a>
-              <a href="/">About</a>
-              <a href="/">Services</a>
-              <a href="/">Partnership</a>
-              <a href="/">Projects</a>
+              <a href="/about">About</a>
+              <a href="/services">Services</a>
+              <a href="/partnership">Partnership</a>
+              <a href="/project">Projects</a>
             </div>
           </div>
         )}

@@ -3,6 +3,9 @@ import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import Home from "./pages/Home/Home";
+import About from './pages/About/about'
+import Services from './pages/Services/services'
+import Partnership from './pages/Partnership/partnership'
 import Project from "./pages/Projects/Projects";
 
 function App() {
@@ -10,6 +13,18 @@ function App() {
     {
       path: "/",
       element: <Home />,
+    },
+    {
+      path: "/about",
+      element: <About />,
+    },
+    {
+      path: "/services",
+      element: <Services />,
+    },
+    {
+      path: "/partnership",
+      element: <Partnership />,
     },
     {
       path: "/project",
