@@ -39,9 +39,7 @@ const Home = () => {
         </div>
       </div>
       <Company />
-      <div style={{height:"100vh"}}>
-        wfe
-      </div>
+      
     </>
   );
 };
