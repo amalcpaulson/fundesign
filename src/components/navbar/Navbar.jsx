@@ -20,7 +20,7 @@ const Navbar = () => {
           <img className="nav-logo" src={logowhite} alt="" />
         </a>
         <div className="navbar-desk">
-          <a href="/">Home</a>
+         
           <a href="/about">About</a>
           <a href="/services">Services</a>
           <a href="/partnership">Partnership</a>
@@ -45,7 +45,7 @@ const Navbar = () => {
             </div>
 
             <div className="nav-links-menu">
-              <a href="/">Home</a>
+          
               <a href="/about">About</a>
               <a href="/services">Services</a>
               <a href="/partnership">Partnership</a>

@@ -78,6 +78,37 @@
 /* company logos */
 
 .company-wrapper {
+  width: 50vw;
+  height: 20vh;
+  padding: 0vh 2vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  gap: 2vh;
+  justify-content: space-between;
+  position: relative;
+  background-color: #ffffff;
+}
+.company-wrapper a {
+  height: fit-content;
+}
+.company-wrapper a > img {
+  animation: scroll 15s linear 15s infinite alternate forwards;
+}
+
+@keyframes scroll {
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(-45vw);
+  }
+}
+
+@media screen and (max-width: 850px) {
+.company-wrapper {
   width: 100vw;
   height: 20vh;
   padding: 0vh 2vh;
@@ -88,23 +119,21 @@
   justify-content: space-between;
   position: relative;
   background-color: #ffffff;
-  
 }
-.company-wrapper a{
-  height: 13vh;
+.company-wrapper a {
+  height: fit-content;
 }
-.company-wrapper a>img{
-
-  animation: scroll 15s linear 15s infinite alternate forwards;
+.company-wrapper a > img {
+  animation: scroll 10s linear 10s infinite alternate forwards;
 }
-
 @keyframes scroll {
   0% {
     opacity: 1;
-		transform: translateX(0);
+    transform: translateX(0);
   }
   100% {
-  	opacity: 1;
-		transform: translateX(-100vw)
+    opacity: 1;
+    transform: translateX(-230vw);
   }
+}
 }
