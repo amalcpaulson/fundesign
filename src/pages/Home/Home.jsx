@@ -27,7 +27,7 @@ const Home = () => {
             <div className="home-about-content">
               <div>
                 <h1>We are a culture-driven design community!</h1>
-                <button>
+                <button style={{padding:5}}>
                   Join out community <AiOutlineArrowRight />
                 </button>
               </div>
