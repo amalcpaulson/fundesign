@@ -1,17 +1,24 @@
 import React from "react";
 import "../../pages/Home/home.css";
-import mac from '../../assets/Home/showcase/Mac.png'
+import mac from "../../assets/Home/showcase/Mac.png";
+import vectorleft from "../../assets/Home/showcase/Vector-left.png";
+import vectorright from "../../assets/Home/showcase/Vector-right.png";
 
 const showcase = () => {
   return (
     <div className="showcase-home-wrapper">
       <h1>Making us stand out!</h1>
       <div className="showcase-home-content-wrapper">
-        <div></div>
-        <div>
-            <img src={mac} alt="" />
+        <div className="showcase-home-content-left">
+          <img src={vectorleft} alt="" />
         </div>
-        <div></div>
+        <div className="showcase-home-content-mid">
+          <img src={mac} alt="" />
+        </div>
+
+        <div className="showcase-home-content-right">
+          <img src={vectorright} alt="" />
+        </div>
       </div>
     </div>
   );
