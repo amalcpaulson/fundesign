@@ -9,7 +9,7 @@ import web from "../../assets/Home/about/web.png";
 
 const about = () => {
   return (
-    <div>
+    <div className="home-about-wrapper">
       <h1>Empowering You!</h1>
       <div className="home-about-content-wrapper">
         <div className="home-about-content-individual">
