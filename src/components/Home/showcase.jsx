@@ -5,40 +5,7 @@ import vectorleft from "../../assets/Home/showcase/Vector-left.png";
 import vectorright from "../../assets/Home/showcase/Vector-right.png";
 
 const showcase = () => {
-    const slider = document.querySelector(".slider");
-    const containerWidth = document.querySelector(".container").offsetWidth;
-    let scrollPosition = 0;
-
-    document.addEventListener("DOMContentLoaded", () => {
-      updateSliderPosition();
-    });
-
-    function updateSliderPosition() {
-      slider.style.transform = `translateX(${-scrollPosition}px)`;
-    }
-
-    function scrollToNextContainer() {
-      const numContainers = document.querySelectorAll(".container").length;
-      if (scrollPosition < containerWidth * (numContainers - 1)) {
-        scrollPosition += containerWidth;
-        updateSliderPosition();
-      }
-    }
-
-    function scrollToPreviousContainer() {
-      if (scrollPosition > 0) {
-        scrollPosition -= containerWidth;
-        updateSliderPosition();
-      }
-    }
-
-    document.addEventListener("keydown", (event) => {
-      if (event.key === "ArrowRight") {
-        scrollToNextContainer();
-      } else if (event.key === "ArrowLeft") {
-        scrollToPreviousContainer();
-      }
-    });
+   
   return (
     <div className="showcase-home-wrapper">
       <h1>Making us stand out!</h1>
