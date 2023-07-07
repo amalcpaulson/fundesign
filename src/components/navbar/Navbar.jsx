@@ -20,14 +20,16 @@ const Navbar = () => {
           <img className="nav-logo" src={logowhite} alt="" />
         </a>
         <div className="navbar-desk">
-         
           <a href="/about">About</a>
           <a href="/services">Services</a>
           <a href="/partnership">Partnership</a>
           <a href="/project">Projects</a>
         </div>
         <div className="navbar-mob">
-          <button onClick={openMenu}>
+          <button
+            style={{ backgroundColor: "transparent", border: "none" }}
+            onClick={openMenu}
+          >
             <BiMenu style={{ color: "white", fontSize: "40px" }} />
           </button>
         </div>
@@ -45,7 +47,6 @@ const Navbar = () => {
             </div>
 
             <div className="nav-links-menu">
-          
               <a href="/about">About</a>
               <a href="/services">Services</a>
               <a href="/partnership">Partnership</a>

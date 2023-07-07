@@ -31,7 +31,7 @@ const showcase = () => {
               </div>
               <div className="container">
                 <iframe
-                  src="https://amalcp-portfolio.netlify.app/"
+                  src="https://amalcp.vercel.app/"
                   frameborder="0"
                 ></iframe>
               </div>

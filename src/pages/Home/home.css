@@ -14,23 +14,44 @@
 .homedrag-wrapper-desk {
   width: 100%;
   max-width: 100vw;
-  height: 500px;
+  height: 80vh;
   overflow: hidden;
 }
-#mydiv {
-  position: absolute;
-  z-index: 9;
-  background-color: #f1f1f1;
-  border: 1px solid #d3d3d3;
-  text-align: center;
+.homedrag-wrapper-desk div{
+  width: 350px;
+  text-align: justify;
+  border: 2px solid blue;
+  padding: 20px;
 }
-
-.mydivheader {
-  padding: 10px;
-  cursor: move;
-  z-index: 10;
-  background-color: #2196f3;
-  color: #fff;
+.homedrag-wrapper-tab {
+  width: 100%;
+  max-width: 100vw;
+  height: 500px;
+  overflow: hidden;
+  display: none;
+}
+.homedrag-wrapper-mob {
+  width: 100%;
+  max-width: 100vw;
+  height: 500px;
+  overflow: hidden;
+  display: none;
+}
+@media screen and (max-width: 850px) {
+  .homedrag-wrapper-desk {
+    display: none;
+  }
+  .homedrag-wrapper-tab {
+    display: block;
+  }
+}
+@media screen and (max-width: 500px) {
+  .homedrag-wrapper-tab {
+    display: none;
+  }
+  .homedrag-wrapper-mob {
+    display: block;
+  }
 }
 /* ################################# */
 /* About - Home */
@@ -104,7 +125,7 @@
 }
 
 .showcase-home-content-mid {
-  width: 65%;
+  width: 70%;
   position: relative;
 }
 
@@ -113,12 +134,12 @@
 }
 .showcase-home-content-mid > img {
   width: 100%;
-  height: 100vh;
+  height: 80vh;
 }
 .showcase-home-content-right > img,
 .showcase-home-content-left > img {
   width: 100%;
-  height: 70vh;
+  height: 55vh;
 }
 
 /* slider */
@@ -126,7 +147,7 @@
 .slider-wrapper {
   position: absolute;
   background-color: #ffffff;
-  height: 70vh;
+  height: 50vh;
   width: 84.6%;
   top: 2.5vh;
   left: 13.2%;
@@ -150,4 +171,24 @@
 .slider-wrapper iframe {
   width: 100%;
   height: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 850px) {
+  .showcase-home-content-right, .showcase-home-content-left {
+    display: none;
+  }
+  .showcase-home-content-mid {
+  width: 90%;
+}
+
+}
+@media screen and (max-width: 500px) {
+.showcase-home-content-mid > img {
+  height: 60vh;
+}
+.slider-wrapper {
+  height: 40vh;
+}
 }
