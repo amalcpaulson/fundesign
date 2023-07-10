@@ -5,6 +5,7 @@ import Company from "../../components/Home/company";
 import Homedrag from "../../components/Home/Homedrags";
 import About from "../../components/Home/about";
 import Showcase from "../../components/Home/showcase";
+import Mouse from '../../components/mousehover/mouse'
 
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
         <Homedrag />
         <About />
         <Showcase />
+        <Mouse />
       </div>
      
       
