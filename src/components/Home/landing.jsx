@@ -13,8 +13,7 @@ const landing = () => {
     return Math.random() * (max - min) + min;
   }
 
-  function moveContainer() {
-    var container = document.getElementById("container");
+  function moveContainer(container) {
     var containerWidth = container.offsetWidth;
     var containerHeight = container.offsetHeight;
     var maxX = window.innerWidth - containerWidth;
@@ -23,20 +22,37 @@ const landing = () => {
     var randomX = getRandomPosition(0, maxX);
     var randomY = getRandomPosition(0, maxY);
 
-    container.style.left = randomX + "px";
+    container.style.left = randomX - 400 + "px";
     container.style.top = randomY + "px";
   }
-  setInterval(moveContainer, 5000);
+
+  var containers = document.getElementsByClassName("shake");
+
+  for (var i = 0; i < containers.length; i++) {
+    moveContainer(containers[i]);
+  }
+
+  setInterval(function () {
+    for (var i = 0; i < containers.length; i++) {
+      moveContainer(containers[i]);
+    }
+  }, 4000);
   return (
     <div>
       <div className="landing-desktop-view">
         <img src={mac} alt="" />
         <div className="curser-shaking">
-          <div id="container" className="shake">
+          <div id="container1" className="shake container-curser-1">
             <img src={logodesigner} alt="" />
           </div>
-          <div id="container-curser-1" className="shake">
+          <div id="container2" className="shake container-curser-1">
             <img src={ui} alt="" />
+          </div>
+          <div id="container3" className="shake container-curser-1">
+            <img src={graphic} alt="" />
+          </div>
+          <div id="container4" className="shake container-curser-1">
+            <img src={ux} alt="" />
           </div>
         </div>
       </div>

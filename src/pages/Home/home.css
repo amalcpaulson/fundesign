@@ -32,22 +32,21 @@
   display: none;
 }
 .curser-shaking {
-position: absolute;
   height: 50%;
   width: 92%;
   top: 7%;
   left: 10%;
   display: flex;
+  overflow: hidden;
   justify-content: space-around;
 }
-#container{
-  position: absolute;
 
-}
-#container-curser-1 {
+.container-curser-1 {
   width: 150px;
   height: 40px;
   border-radius: 20px;
+  position: absolute;
+
 }
 
 @keyframes shake {
@@ -69,7 +68,7 @@ position: absolute;
 }
 
 .shake {
-  animation: shake 5s infinite;
+  animation: shake 10s infinite;
 }
 @media screen and (max-width: 1000px) {
   .landing-desktop-view {
