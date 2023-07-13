@@ -19,12 +19,12 @@ const Navbar = () => {
         <a href="/">
           <img className="nav-logo" src={logowhite} alt="" />
         </a>
-        <div className="navbar-desk">
+        {/* <div className="navbar-desk">
           <a href="/about">About</a>
           <a href="/services">Services</a>
           <a href="/partnership">Partnership</a>
           <a href="/project">Projects</a>
-        </div>
+        </div> */}
         <div className="navbar-mob">
           <button
             style={{ backgroundColor: "transparent", border: "none" }}
@@ -47,14 +47,14 @@ const Navbar = () => {
             </div>
 
             <div className="nav-links-menu">
-              <a href="/about">About</a>
+              {/* <a href="/about">About</a>
               <a href="/services">Services</a>
               <a href="/partnership">Partnership</a>
-              <a href="/project">Projects</a>
+              <a href="/project">Projects</a> */}
             </div>
           </div>
         )}
-        <button>Let's Talk</button>
+        {/* <button>Let's Talk</button> */}
       </div>
     </div>
   );
