@@ -1,12 +1,12 @@
 import React from 'react'
 import "../../pages/Admin/Admin.css";
 
-const login = () => {
+const Dashboard = () => {
   return (
     <div>
-      Login
+      Dashboard
     </div>
   )
 }
 
-export default login
+export default Dashboard
