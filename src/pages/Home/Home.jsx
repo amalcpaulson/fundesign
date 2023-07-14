@@ -4,6 +4,7 @@ import Navbar from "../../components/navbar/Navbar";
 import Landing from '../../components/Home/landing'
 import Homedrag from "../../components/Home/Homedrags";
 import About from "../../components/Home/about";
+import Projects from "../../components/Home/projects";
 
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
         <Landing />
         <Homedrag />
         <About />
+        <Projects />
       </div>
      
       

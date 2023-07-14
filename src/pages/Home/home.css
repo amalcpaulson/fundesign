@@ -46,7 +46,6 @@
   height: 40px;
   border-radius: 20px;
   position: absolute;
-
 }
 
 @keyframes shake {
@@ -274,4 +273,66 @@
   .slider-wrapper {
     height: 40vh;
   }
+}
+
+/* ################################# */
+/* Projects - Home */
+
+.home-projects-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.projects-div-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projects-individual-wrapper {
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  border-radius: 15px;
+  gap: 10px;
+  box-shadow: 0px 0px 29.92466926574707px 0px rgba(0, 0, 0, 0.08);
+}
+
+.project-div-upper {
+  padding: 14px 14px 0px 14px;
+  width: 100%;
+  border-radius: 15px;
+  background-color: #a498c9;
+}
+
+.project-div-upper img {
+  width: 100%;
+  border-radius: 14px 14px 0px 0px;
+}
+.project-div-bottom{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.project-div-buttons{
+  display: flex;
+  gap: 15px;
+}
+.project-div-buttons a{
+  background-color: #c0b2ea;
+  border-radius: 20px;
+  padding: 7px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 5px;
+}
+
+.project-div-buttons a p{
+  font-size: 15px;
+
 }
