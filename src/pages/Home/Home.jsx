@@ -5,6 +5,7 @@ import Landing from '../../components/Home/landing'
 import Homedrag from "../../components/Home/Homedrags";
 import About from "../../components/Home/about";
 import Projects from "../../components/Home/projects";
+import Software from "../../components/Home/software";
 
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
         <Homedrag />
         <About />
         <Projects />
+        <Software />
       </div>
      
       

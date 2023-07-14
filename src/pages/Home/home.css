@@ -284,6 +284,7 @@
   flex-direction: column;
   justify-content: center;
   margin-bottom: 50px;
+  gap: 30px;
 }
 
 .projects-div-wrapper {
@@ -344,3 +345,6 @@
   font-size: 14px;
 
 }
+
+/* ################################# */
+/* Software - Home */
