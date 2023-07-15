@@ -10,106 +10,71 @@
 }
 /* ################################# */
 /* Landing - Home */
-.landing-desktop-view,
-.landing-tab-view,
-.landing-phone-view {
+.landing-page-wrapper {
+  width: 100%;
+  
+  height: 100vh;
+  overflow: hidden;
+  color: white;
+  background: url("../../assets/Home/landing/fog.png") center center/cover
+    no-repeat;
+  background-color: rgba(25, 11, 46, 1);
+}
+.landing-page-ray {
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+
+  background: url("../../assets//Home/landing/rays.png") center top/cover
+    no-repeat;
+}
+
+.landing-page-content {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  width: 40%;
+z-index: 9000;
+display: grid;
+place-items: center;
+}
+.landing-page-content div{
+  width: 100%;
+}
+.landing-page-content h2 {
+  text-align: center;
+  width: 100%;
+  font-size: 45px;
+  font-weight: 600;
+}
+.landing-page-main-content {
   display: flex;
-  position: relative;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 100vw;
   height: 100vh;
-  padding: 100px auto 100px auto;
-}
-.landing-desktop-view > img,
-.landing-tab-view > img,
-.landing-phone-view > img {
-  /* width: 85%; */
-  width: auto;
-  height: 90%;
-}
-.landing-tab-view,
-.landing-phone-view {
-  display: none;
-}
-.curser-shaking {
-  height: 50%;
-  width: 92%;
-  top: 7%;
-  left: 10%;
-  display: flex;
-  overflow: hidden;
-  justify-content: space-around;
-}
-
-.container-curser-1 {
-  width: 150px;
-  height: 40px;
-  border-radius: 20px;
   position: absolute;
 }
-
-@keyframes shake {
-  0% {
-    transform: translate(0, 0);
-  }
-  25% {
-    transform: translate(20px, 0px);
-  }
-  50% {
-    transform: translate(0, 0);
-  }
-  75% {
-    transform: translate(-10px, -10px);
-  }
-  100% {
-    transform: translate(0, 0);
-  }
-}
-
-.shake {
-  animation: shake 10s infinite;
-}
 @media screen and (max-width: 1000px) {
-  .landing-desktop-view {
-    display: none;
-  }
-  .landing-tab-view {
-    display: flex;
-    height: auto;
-  }
-  .landing-tab-view > img {
-    /* width: 85%; */
-    width: 90%;
-    height: auto;
-  }
 }
 @media screen and (max-width: 500px) {
-  .landing-tab-view {
-    display: none;
-  }
-  .landing-phone-view {
-    display: flex;
-  }
 }
 /* ################################# */
 /* HomeDrag - Home */
 .homedrag-wrapper-desk {
   width: 100%;
-  max-width: 100vw;
-  height: 80vh;
-  overflow: hidden;
+  height: 100vh;
+  position: absolute;
+
 }
 .homedrag-wrapper-desk div {
-  width: 350px;
-  text-align: justify;
-  border: 2px solid blue;
-  padding: 20px;
+  width: 50px;
 }
 .homedrag-wrapper-tab {
   width: 100%;
   max-width: 100vw;
   height: 500px;
-  overflow: hidden;
   display: none;
 }
 .homedrag-wrapper-mob {
@@ -292,8 +257,6 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-
-
 }
 
 .projects-individual-wrapper {
@@ -319,17 +282,17 @@
   height: 100%;
   border-radius: 14px 14px 0px 0px;
 }
-.project-div-bottom{
+.project-div-bottom {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.project-div-buttons{
+.project-div-buttons {
   display: flex;
   gap: 15px;
 }
-.project-div-buttons a{
+.project-div-buttons a {
   background-color: #ffffff;
   border-radius: 20px;
   padding: 7px 14px;
@@ -341,9 +304,8 @@
   border: 2px solid white;
 }
 
-.project-div-buttons a p{
+.project-div-buttons a p {
   font-size: 14px;
-
 }
 
 /* ################################# */

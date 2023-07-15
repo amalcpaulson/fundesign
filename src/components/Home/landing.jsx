@@ -1,69 +1,70 @@
-import React from "react";
-import mac from "../../assets/Home/landing/Mac.png";
-import phone from "../../assets/Home/landing/phone.png";
-import tab from "../../assets/Home/landing/tab.png";
-import logodesigner from "../../assets/Home/landing/logodes.png";
-import ui from "../../assets/Home/landing/ui.png";
-import ux from "../../assets/Home/landing/ux.png";
-import graphic from "../../assets/Home/landing/graphic.png";
+import React, { useState } from "react";
 import "../../pages/Home/home.css";
+import Draggable, { DraggableCore } from "react-draggable";
+import ray from "../../assets/Home/landing/rays.png";
+import sparkle from '../../assets/Home/landing/sparkle.png'
+import sparkle1 from "../../assets/Home/landing/sparkle1.png";
+import ai from "../../assets/Home/landing/ai.png";
+import coc from "../../assets/Home/landing/coc.png";
+import figma from "../../assets/Home/landing/Figma.png";
+import ps from "../../assets/Home/landing/ps.png";
+import xd from "../../assets/Home/landing/xd.png";
+import sketch from "../../assets/Home/landing/sketch.png";
 
-const landing = () => {
-  function getRandomPosition(min, max) {
-    return Math.random() * (max - min) + min;
-  }
+import elipse from "../../assets/Home/landing/Ellipse.png";
 
-  function moveContainer(container) {
-    var containerWidth = container.offsetWidth;
-    var containerHeight = container.offsetHeight;
-    var maxX = window.innerWidth - containerWidth;
-    var maxY = window.innerHeight - containerHeight;
 
-    var randomX = getRandomPosition(0, maxX);
-    var randomY = getRandomPosition(0, maxY);
 
-    container.style.left = randomX - 400 + "px";
-    container.style.top = randomY + "px";
-  }
 
-  var containers = document.getElementsByClassName("shake");
+const Landing = () => {
+  console.log(window.innerWidth, window.innerHeight);
+  const [widthHeight, setWidthHeight] = useState({
+    width: window.innerWidth,
+    height: window.innerHeight,
+  });
 
-  for (var i = 0; i < containers.length; i++) {
-    moveContainer(containers[i]);
-  }
-
-  setInterval(function () {
-    for (var i = 0; i < containers.length; i++) {
-      moveContainer(containers[i]);
-    }
-  }, 4000);
+  console.log(widthHeight.width)
   return (
-    <div>
-      <div className="landing-desktop-view">
-        <img src={mac} alt="" />
-        <div className="curser-shaking">
-          <div id="container1" className="shake container-curser-1">
-            <img src={logodesigner} alt="" />
+    <div className="landing-page-wrapper">
+      <div className="landing-page-ray">{/* <img src={ray} alt="" /> */}</div>
+      <div className="landing-page-content">
+        <div className="landing-page-main-content">
+          <div>
+            <h2>Meet & Collaborate with the people who loves Design.</h2>
           </div>
-          <div id="container2" className="shake container-curser-1">
-            <img src={ui} alt="" />
-          </div>
-          <div id="container3" className="shake container-curser-1">
-            <img src={graphic} alt="" />
-          </div>
-          <div id="container4" className="shake container-curser-1">
-            <img src={ux} alt="" />
+          <div>
+            <a href="">Explore</a>
           </div>
         </div>
-      </div>
-      <div className="landing-tab-view">
-        <img src={tab} alt="" />
-      </div>
-      <div className="landing-phone-view">
-        <img src={phone} alt="" />
+        <div className="homedrag-wrapper-desk">
+          <Draggable
+            defaultPosition={{
+              x: widthHeight.width - widthHeight.width * 0.7,
+              y: widthHeight.height - widthHeight.height * 0.4,
+            }}
+          >
+            <img src={ai} alt="" />
+          </Draggable>
+          <Draggable
+            defaultPosition={{
+              x: widthHeight.width - widthHeight.width * 1.2,
+              y: widthHeight.height - widthHeight.height * 0.6,
+            }}
+          >
+            <img src={xd} alt="" />
+          </Draggable>
+          <Draggable
+            defaultPosition={{
+              x: widthHeight.width - widthHeight.width * 0.8,
+              y: widthHeight.height - widthHeight.height * 0.8,
+            }}
+          >
+            <img src={ps} alt="" />
+          </Draggable>
+        </div>{" "}
       </div>
     </div>
   );
 };
 
-export default landing;
+export default Landing;
