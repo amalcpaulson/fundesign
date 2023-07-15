@@ -1,7 +1,7 @@
 import React from "react";
 import "./home.css";
 import Navbar from "../../components/navbar/Navbar";
-import Landing from '../../components/Home/Landing'
+import Landing from '../../components/Home/Homescreen'
 import Homedrag from "../../components/Home/Homedrags";
 import About from "../../components/Home/about";
 import Projects from "../../components/Home/projects";

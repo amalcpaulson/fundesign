@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "../../pages/Home/home.css";
 import Draggable, { DraggableCore } from "react-draggable";
-import ray from "../../assets/Home/landing/rays.png";
 import sparkle from '../../assets/Home/landing/sparkle.png'
 import sparkle1 from "../../assets/Home/landing/sparkle1.png";
 import ai from "../../assets/Home/landing/ai.png";
@@ -16,7 +15,7 @@ import elipse from "../../assets/Home/landing/Ellipse.png";
 
 
 
-const Landing = () => {
+const HomeScreen = () => {
   console.log(window.innerWidth, window.innerHeight);
   const [widthHeight, setWidthHeight] = useState({
     width: window.innerWidth,
@@ -100,4 +99,4 @@ const Landing = () => {
   );
 };
 
-export default Landing;
+export default HomeScreen;
