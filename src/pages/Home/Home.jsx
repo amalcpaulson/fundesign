@@ -16,7 +16,7 @@ const Home = () => {
   return (
     <>
 
-      {/* <Navbar /> */}
+      <Navbar />
       <div className="home-body">
         <Landing />
         {/* <Homedrag /> */}

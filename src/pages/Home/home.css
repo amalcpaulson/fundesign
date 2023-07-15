@@ -12,7 +12,7 @@
 /* Landing - Home */
 .landing-page-wrapper {
   width: 100%;
-  
+
   height: 100vh;
   overflow: hidden;
   color: white;
@@ -34,11 +34,11 @@
   top: 50%;
   left: 30%;
   width: 40%;
-z-index: 9000;
-display: grid;
-place-items: center;
+  z-index: 9000;
+  display: grid;
+  place-items: center;
 }
-.landing-page-content div{
+.landing-page-content div:nth-child(1) {
   width: 100%;
 }
 .landing-page-content h2 {
@@ -55,6 +55,26 @@ place-items: center;
   width: 100vw;
   height: 100vh;
   position: absolute;
+  gap: 30px;
+}
+.landing-page-explore-btn {
+  border-radius: 57.45px;
+  background: linear-gradient(180deg, #6435af 0%, #b384ff 100%);
+  box-shadow: 0px 1.248908281326294px 0px 0px rgba(255, 255, 255, 0.4) inset,
+    0px -4.995633125305176px 0px 0px rgba(0, 0, 0, 0.2) inset,
+    0px 0px 0px 4.995633125305176px rgba(255, 255, 255, 0.07),
+    0px 0px 203.57205200195312px 0px #c25fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px 20px;
+  position: relative;
+  z-index: 1000;
+}
+.landing-page-explore-btn a {
+  color: white;
 }
 @media screen and (max-width: 1000px) {
 }
@@ -66,7 +86,6 @@ place-items: center;
   width: 100%;
   height: 100vh;
   position: absolute;
-
 }
 .homedrag-wrapper-desk div {
   width: 50px;

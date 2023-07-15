@@ -32,8 +32,8 @@ const Landing = () => {
           <div>
             <h2>Meet & Collaborate with the people who loves Design.</h2>
           </div>
-          <div>
-            <a href="">Explore</a>
+          <div className="landing-page-explore-btn">
+            <a href="" >Explore Design</a>
           </div>
         </div>
         <div className="homedrag-wrapper-desk">
