@@ -33,7 +33,7 @@ const Landing = () => {
             <h2>Meet & Collaborate with the people who loves Design.</h2>
           </div>
           <div className="landing-page-explore-btn">
-            <a href="" >Explore Design</a>
+            <a href="">Explore Design</a>
           </div>
         </div>
         <div className="homedrag-wrapper-desk">
@@ -60,8 +60,41 @@ const Landing = () => {
             }}
           >
             <img src={ps} alt="" />
+          </Draggable>{" "}
+          <Draggable
+            defaultPosition={{
+              x: widthHeight.width - widthHeight.width * 0.7,
+              y: widthHeight.height - widthHeight.height * 0.5,
+            }}
+          >
+            <img src={coc} alt="" />
+          </Draggable>{" "}
+          <Draggable
+            defaultPosition={{
+              x: widthHeight.width - widthHeight.width * 1.2,
+              y: widthHeight.height - widthHeight.height * 0.8,
+            }}
+          >
+            <img src={figma} alt="" />
+          </Draggable>{" "}
+          <Draggable
+            defaultPosition={{
+              x: widthHeight.width - widthHeight.width * 1.34,
+              y: widthHeight.height - widthHeight.height * 0.3,
+            }}
+          >
+            <img src={sketch} alt="" />
           </Draggable>
-        </div>{" "}
+          {/* celestial bodies */}
+          <Draggable
+            defaultPosition={{
+              x: widthHeight.width - widthHeight.width * 1.24,
+              y: widthHeight.height - widthHeight.height * 0.43,
+            }}
+          >
+            <img src={sparkle} alt="" />
+          </Draggable>
+        </div>
       </div>
     </div>
   );
