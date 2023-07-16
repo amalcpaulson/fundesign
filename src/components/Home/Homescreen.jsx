@@ -13,16 +13,16 @@ const HomeScreen = () => {
   const p1y = widthHeight.height - widthHeight.height * 0.4;
   const p2x = widthHeight.width - widthHeight.width * 0.57;//coc
   const p2y = widthHeight.height - widthHeight.height * 0.35;
-  const p3x = widthHeight.width - widthHeight.width * 1;//xd
+  const p3x = widthHeight.width - widthHeight.width * 0.9;//xd
   const p3y = widthHeight.height - widthHeight.height * 0.5;
   const p4x = widthHeight.width - widthHeight.width * 0.37;//sketch
   const p4y = widthHeight.height - widthHeight.height * 0.8;
-  const p5x = widthHeight.width - widthHeight.width * 0.3;
-  const p5y = widthHeight.height - widthHeight.height * 0.3;
-  const p6x = widthHeight.width - widthHeight.width * 0.3;
-  const p6y = widthHeight.height - widthHeight.height * 0.3;
-  const p7x = widthHeight.width - widthHeight.width * 0.3;
-  const p7y = widthHeight.height - widthHeight.height * 0.3;
+  const p5x = widthHeight.width - widthHeight.width * 0.74;//figma
+  const p5y = widthHeight.height - widthHeight.height * 0.87;
+  const p6x = widthHeight.width - widthHeight.width * 1.15;//ps
+  const p6y = widthHeight.height - widthHeight.height * 0.94;
+  const p7x = widthHeight.width - widthHeight.width * 1.25;//star under ps
+  const p7y = widthHeight.height - widthHeight.height * 0.67;
   const p8x = widthHeight.width - widthHeight.width * 0.3;
   const p8y = widthHeight.height - widthHeight.height * 0.3;
   const p9x = widthHeight.width - widthHeight.width * 0.3;
@@ -80,6 +80,7 @@ const HomeScreen = () => {
               height="127"
               viewBox="0 0 129 127"
               fill="none"
+              className="dragComponents"
             >
               <g filter="url(#filter0_d_433_34)">
                 <path
@@ -141,6 +142,7 @@ const HomeScreen = () => {
               height="146"
               viewBox="0 0 114 146"
               fill="none"
+              className="dragComponents"
             >
               <g filter="url(#filter0_d_433_39)">
                 <path
@@ -204,6 +206,7 @@ const HomeScreen = () => {
               height="108"
               viewBox="0 0 110 108"
               fill="none"
+              className="dragComponents"
             >
               <g filter="url(#filter0_d_433_42)">
                 <path
@@ -265,6 +268,7 @@ const HomeScreen = () => {
               height="101"
               viewBox="0 0 108 101"
               fill="none"
+              className="dragComponents"
             >
               <g filter="url(#filter0_d_433_51)">
                 <path
@@ -355,6 +359,7 @@ const HomeScreen = () => {
               height="123"
               viewBox="0 0 95 123"
               fill="none"
+              className="dragComponents"
             >
               <g filter="url(#filter0_d_433_63)">
                 <path
@@ -419,8 +424,8 @@ const HomeScreen = () => {
           </Draggable>{" "}
           <Draggable
             defaultPosition={{
-              x: widthHeight.width - widthHeight.width * 1.2,
-              y: widthHeight.height - widthHeight.height * 0.6,
+              x: p6x,
+              y: p6y,
             }}
           >
             <svg
@@ -436,6 +441,7 @@ const HomeScreen = () => {
                   clip-rule="evenodd"
                   d="M42.7758 15.5967L99.2286 25.0672C107.788 26.5031 113.547 34.584 112.111 43.143L103.007 97.4104C101.571 105.969 93.4901 111.728 84.9312 110.293L28.4785 100.822C19.9195 99.3863 14.1604 91.3054 15.5962 82.7464L24.7001 28.479C26.136 19.92 34.2169 14.1609 42.7758 15.5967ZM36.9352 76.066L43.2224 38.5887C43.2651 38.3338 43.3988 38.2064 43.6538 38.2492C44.273 38.3531 44.8557 38.4508 45.6995 38.5549C46.1528 38.6117 46.6141 38.6797 47.0901 38.7499L47.0901 38.7499L47.0903 38.7499C47.5386 38.8161 47.9999 38.8841 48.4797 38.9464C48.9915 39.0129 49.5211 39.0924 50.0703 39.1749C50.5829 39.2518 51.1125 39.3313 51.6606 39.4052C52.7957 39.5582 53.8884 39.7415 54.981 39.9248C57.9675 40.4258 60.3831 41.2055 62.2943 42.3125C64.0115 43.2371 65.5158 44.538 66.6737 46.1177C67.6437 47.4787 68.3159 49.0519 68.6359 50.7158C68.9256 52.3371 68.9543 53.9521 68.6793 55.591C68.1539 58.7233 66.9916 61.187 65.1926 62.9821C63.3936 64.7773 61.0974 65.9649 58.5834 66.4418C55.954 66.9369 53.1675 66.8064 50.1809 66.3054C49.3068 66.1587 48.7241 66.061 48.366 65.9635C48.0079 65.8659 47.498 65.7804 46.806 65.6643L44.8447 77.3555C44.8383 77.6165 44.6196 77.8045 44.3585 77.7982L44.2128 77.7737L37.2928 76.6128C37.0014 76.5639 36.8802 76.3938 36.9352 76.066ZM50.0502 46.5493L47.9972 58.7868L48.105 58.813L48.1052 58.813C48.568 58.9252 48.9997 59.0299 49.4054 59.098L51.3357 59.4218C52.7561 59.6601 54.2132 59.6798 55.6341 59.4689C56.8546 59.3366 57.9905 58.8157 58.9445 58.0396C59.8621 57.2573 60.434 56.0801 60.7029 54.4776C60.9287 53.3547 60.8267 52.1767 60.409 51.0956C59.9487 50.0448 59.1968 49.1697 58.2078 48.5919C56.9518 47.8195 55.5317 47.3566 54.0323 47.1425C53.0853 46.9836 52.2476 46.8431 51.5495 46.7634C50.8272 46.6048 50.3112 46.5557 50.0502 46.5493ZM87.4028 61.8401C88.5984 62.3028 89.6966 62.8989 90.6915 63.665C90.825 63.7622 91.0071 63.7928 91.3471 63.7749C91.4686 63.7204 91.5659 63.587 91.5903 63.4413L92.5862 57.5046C92.6107 57.359 92.5987 57.2072 92.5867 57.0555L92.5867 57.0554C92.5383 56.8975 92.4171 56.7273 92.2775 56.6665C91.3613 56.1009 90.354 55.6323 89.2858 55.3033C87.8292 54.8343 86.3178 54.4684 84.8246 54.2179C82.2387 53.7841 80.0226 53.8242 78.1642 54.4112C76.4759 54.8769 74.9328 55.8163 73.7778 57.1204C72.7505 58.3335 72.0629 59.7535 71.8002 61.3196C71.5499 62.5882 71.6275 63.9118 72.0147 65.1751C72.4989 66.5295 73.2687 67.7445 74.2633 68.7352C75.6826 70.0967 77.2477 71.258 78.9952 72.2251C80.6638 73.2165 81.774 73.9645 82.2773 74.5357C82.7806 75.107 82.9926 75.6293 82.907 76.1392C82.797 76.7948 82.2925 77.3467 81.667 77.5039C80.9565 77.7217 79.9425 77.7389 78.5585 77.5067C77.1017 77.2623 75.6754 76.8358 74.3525 76.2394C72.8111 75.6063 71.4156 74.7731 70.1357 73.6971C70.0386 73.6059 69.9355 73.5512 69.814 73.6057C69.6925 73.6602 69.6316 73.7998 69.6133 73.9091L68.5502 80.2463C68.4649 80.5316 68.6042 80.8171 68.8347 81.0055C69.9085 81.7474 71.1161 82.3619 72.3542 82.7942C73.9381 83.397 75.5526 83.8176 77.228 84.0987C79.8503 84.5386 82.1028 84.5046 84.0157 84.0391C85.7647 83.6585 87.3745 82.7677 88.6387 81.4819C89.8239 80.2204 90.621 78.5941 90.8717 76.8762C91.1281 75.5712 91.0506 74.2476 90.6634 72.9843C90.1791 71.6299 89.3668 70.4452 88.2932 69.4787C86.7283 68.0928 84.9872 66.8645 83.1304 65.879C82.3174 65.3681 81.5105 64.8209 80.7462 64.2433C80.3155 63.9089 79.9334 63.5078 79.6728 63.0522C79.5032 62.7242 79.4125 62.3719 79.4675 62.0441C79.5224 61.7163 79.6928 61.3705 79.9238 61.1096C80.2398 60.7882 80.6832 60.6005 81.175 60.5706C81.8976 60.5046 82.6808 60.5237 83.4031 60.6823C84.7871 60.9145 86.1041 61.3226 87.4028 61.8401Z"
                   fill="white"
+                  className="dragComponents"
                 />
               </g>
               <defs>
@@ -480,11 +486,73 @@ const HomeScreen = () => {
           {/* celestial bodies */}
           <Draggable
             defaultPosition={{
-              x: widthHeight.width - widthHeight.width * 1.24,
-              y: widthHeight.height - widthHeight.height * 0.43,
+              x: p7x,
+              y: p7y,
             }}
           >
-            <img src={sparkle} alt="" />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="217"
+              height="208"
+              viewBox="0 0 217 208"
+              fill="none"
+              className="dragComponents"
+            >
+              <g filter="url(#filter0_d_438_332)">
+                <path
+                  d="M101.339 134.749C98.0563 134.319 95.7121 131.756 95.7458 128.569C95.5926 100.124 92.0506 95.7024 63.2541 88.8193C59.9385 88.0015 57.7444 85.0755 58.2144 82.0733C58.6909 79.0297 61.636 76.8629 65.0821 76.8468C94.7537 76.9514 98.865 74.1717 108.509 47.0546C109.584 44.0469 112.529 42.178 115.767 42.6026C119.095 43.0392 121.394 45.5959 121.451 48.7948C121.52 77.1857 125.062 81.6075 153.813 88.4848C157.213 89.3563 159.375 92.193 158.892 95.2783C158.422 98.2804 155.568 100.459 152.031 100.463C122.3 100.436 118.241 103.18 108.689 130.309C107.515 133.346 104.531 135.168 101.339 134.749Z"
+                  fill="url(#paint0_radial_438_332)"
+                />
+              </g>
+              <defs>
+                <filter
+                  id="filter0_d_438_332"
+                  x="0.725193"
+                  y="0.0682211"
+                  width="215.659"
+                  height="207.117"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset dy="14.9509" />
+                  <feGaussianBlur stdDeviation="28.7126" />
+                  <feComposite in2="hardAlpha" operator="out" />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 0.296824 0 0 0 0 0.244184 0 0 0 0 0.404167 0 0 0 0.6 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="BackgroundImageFix"
+                    result="effect1_dropShadow_438_332"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="effect1_dropShadow_438_332"
+                    result="shape"
+                  />
+                </filter>
+                <radialGradient
+                  id="paint0_radial_438_332"
+                  cx="0"
+                  cy="0"
+                  r="1"
+                  gradientUnits="userSpaceOnUse"
+                  gradientTransform="translate(137.668 123.841) rotate(-146.937) scale(71.9544 71.404)"
+                >
+                  <stop stop-color="#DABFFF" />
+                  <stop offset="1" stop-color="#874FFF" />
+                </radialGradient>
+              </defs>
+            </svg>
           </Draggable>
         </div>
       </div>
