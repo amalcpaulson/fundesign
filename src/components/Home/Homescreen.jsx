@@ -11,12 +11,12 @@ const HomeScreen = () => {
   });
   const p1x = widthHeight.width - widthHeight.width * 0.3; //ai
   const p1y = widthHeight.height - widthHeight.height * 0.4;
-  const p2x = widthHeight.width - widthHeight.width * 0.57;
+  const p2x = widthHeight.width - widthHeight.width * 0.57;//coc
   const p2y = widthHeight.height - widthHeight.height * 0.35;
-  const p3x = widthHeight.width - widthHeight.width * 0.3;
-  const p3y = widthHeight.height - widthHeight.height * 0.3;
-  const p4x = widthHeight.width - widthHeight.width * 0.3;
-  const p4y = widthHeight.height - widthHeight.height * 0.3;
+  const p3x = widthHeight.width - widthHeight.width * 1;//xd
+  const p3y = widthHeight.height - widthHeight.height * 0.5;
+  const p4x = widthHeight.width - widthHeight.width * 0.37;//sketch
+  const p4y = widthHeight.height - widthHeight.height * 0.8;
   const p5x = widthHeight.width - widthHeight.width * 0.3;
   const p5y = widthHeight.height - widthHeight.height * 0.3;
   const p6x = widthHeight.width - widthHeight.width * 0.3;
@@ -66,7 +66,8 @@ const HomeScreen = () => {
             <a href="">Explore Design</a>
           </div>
         </div>
-        <div className="homedrag-wrapper-desk">
+        <div className="homedrag-wrapper-desk shake">
+          {/* ai */}
           <Draggable
             defaultPosition={{
               x: p1x,
@@ -127,6 +128,7 @@ const HomeScreen = () => {
               </defs>
             </svg>
           </Draggable>
+          {/* coc */}
           <Draggable
             defaultPosition={{
               x: p2x,
@@ -250,10 +252,11 @@ const HomeScreen = () => {
               </defs>
             </svg>
           </Draggable>{" "}
+          {/* sketch */}
           <Draggable
             defaultPosition={{
-              x: widthHeight.width - widthHeight.width * 0.7,
-              y: widthHeight.height - widthHeight.height * 0.5,
+              x: p4x,
+              y: p4y,
             }}
           >
             <svg
@@ -342,8 +345,8 @@ const HomeScreen = () => {
           </Draggable>{" "}
           <Draggable
             defaultPosition={{
-              x: widthHeight.width - widthHeight.width * 0.8,
-              y: widthHeight.height - widthHeight.height * 0.8,
+              x: p5x,
+              y: p5y,
             }}
           >
             <svg

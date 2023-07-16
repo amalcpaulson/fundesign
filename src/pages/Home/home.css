@@ -38,7 +38,7 @@
 .landing-page-content h2 {
   text-align: center;
   width: 100%;
-  font-size: 65px;
+  font-size: 3.1vw;
   font-weight: 500;
   line-height: 1;
 }
@@ -71,6 +71,29 @@
 }
 .landing-page-explore-btn a {
   color: white;
+}
+
+
+@keyframes shake {
+  0% {
+    transform: translate(0px, 11px);
+  }
+  25% {
+    transform: translate(0px, 0px);
+  }
+  50% {
+    transform: translate(0, 11px);
+  }
+  75% {
+    transform: translate(0px, 0px);
+  }
+  100% {
+    transform: translate(0, 11px);
+  }
+}
+
+.shake {
+  animation: shake 8s infinite;
 }
 @media screen and (max-width: 1000px) {
 }
