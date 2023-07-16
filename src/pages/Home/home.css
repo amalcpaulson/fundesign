@@ -14,48 +14,44 @@
   width: 100%;
 
   height: 100vh;
-  overflow: hidden;
   color: white;
   background: url("../../assets/Home/landing/fog.png") center center/cover
     no-repeat;
-  background-color: rgba(25, 11, 46, 1);
+ 
 }
-.landing-page-ray {
-  width: 100%;
-  height: 100%;
-  opacity: 0.5;
 
-  background: url("../../assets//Home/landing/rays.png") center top/cover
-    no-repeat;
-}
 
 .landing-page-content {
   position: absolute;
-  top: 50%;
-  left: 30%;
-  width: 40%;
+  top: 0%;
+  left: 0%;
+  width: 100%;
   z-index: 9000;
   display: grid;
   place-items: center;
+
+ 
 }
 .landing-page-content div:nth-child(1) {
-  width: 100%;
+  width: 70%;
 }
 .landing-page-content h2 {
   text-align: center;
   width: 100%;
-  font-size: 45px;
-  font-weight: 600;
+  font-size: 65px;
+  font-weight: 500;
+  line-height: 1;
 }
 .landing-page-main-content {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
-  position: absolute;
+
   gap: 30px;
+  background: transparent;
 }
 .landing-page-explore-btn {
   border-radius: 57.45px;
@@ -69,7 +65,7 @@
   justify-content: center;
   width: fit-content;
   height: fit-content;
-  padding: 10px 20px;
+  padding: 15px 35px;
   position: relative;
   z-index: 1000;
 }
