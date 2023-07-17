@@ -27,9 +27,9 @@ a {
 }
 .navbar > .navbar-desk {
   display: flex;
-  gap: 3vw;
+  gap: 10px;
   background: rgba(255, 255, 255, 0.2);
-  padding: 15px 40px;
+  padding: 5px 5px;
   border-radius: 30px;
 }
 .navbar > .navbar-desk > a {
@@ -42,13 +42,13 @@ a {
 }
 .navbar > button {
   width: 170px;
-  padding: 15px 10px;
+  padding: 10px 10px;
   background-color: #6435af;
   color: white;
   cursor: pointer;
   border: none;
   border-radius: 30px;
-  font-size: 16px;
+  font-size: 15px;
   font-family: 'Poppins';
 
 }

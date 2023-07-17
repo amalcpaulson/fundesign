@@ -4,6 +4,16 @@ import Draggable, { DraggableCore } from "react-draggable";
 import sparkle from "../../assets/Home/landing/sparkle.png";
 
 const HomeScreen = () => {
+  function updateScreenWidth() {
+    const screenWidth = window.innerWidth;
+    console.log("dynamic", screenWidth);
+  }
+
+  // Call the function initially to show the screen width on page load
+  updateScreenWidth();
+
+  // Attach an event listener to update the screen width when the window is resized
+  window.addEventListener("resize", updateScreenWidth);
   console.log(window.innerWidth, window.innerHeight);
   const [widthHeight, setWidthHeight] = useState({
     width: window.innerWidth,
@@ -11,21 +21,21 @@ const HomeScreen = () => {
   });
   const p1x = widthHeight.width - widthHeight.width * 0.25; //ai
   const p1y = widthHeight.height - widthHeight.height * 0.4;
-  const p2x = widthHeight.width - widthHeight.width * 0.57; //coc
+  const p2x = widthHeight.width - widthHeight.width * 0.5; //coc
   const p2y = widthHeight.height - widthHeight.height * 0.35;
-  const p3x = widthHeight.width - widthHeight.width * 0.9; //xd
-  const p3y = widthHeight.height - widthHeight.height * 0.5;
-  const p4x = widthHeight.width - widthHeight.width * 0.37; //sketch
+  const p3x = widthHeight.width - widthHeight.width * 0.8; //xd
+  const p3y = widthHeight.height - widthHeight.height * 0.45;
+  const p4x = widthHeight.width - widthHeight.width * 0.27; //sketch
   const p4y = widthHeight.height - widthHeight.height * 0.8;
-  const p5x = widthHeight.width - widthHeight.width * 0.74; //figma
-  const p5y = widthHeight.height - widthHeight.height * 0.87;
-  const p6x = widthHeight.width - widthHeight.width * 1.15; //ps
-  const p6y = widthHeight.height - widthHeight.height * 0.94;
-  const p7x = widthHeight.width - widthHeight.width * 1.25; //star under ps
+  const p5x = widthHeight.width - widthHeight.width * 0.54; //figma
+  const p5y = widthHeight.height - widthHeight.height * 0.77;
+  const p6x = widthHeight.width - widthHeight.width * 0.78; //ps
+  const p6y = widthHeight.height - widthHeight.height * 0.84;
+  const p7x = widthHeight.width - widthHeight.width * 0.85; //star under ps
   const p7y = widthHeight.height - widthHeight.height * 0.67;
-  const p8x = widthHeight.width - widthHeight.width * 1.1; //star right of xd
+  const p8x = widthHeight.width - widthHeight.width * 0.6; //star right of xd
   const p8y = widthHeight.height - widthHeight.height * 0.35;
-  const p9x = widthHeight.width - widthHeight.width * 0.8; //star top of ai
+  const p9x = widthHeight.width - widthHeight.width * 0.3; //star top of ai
   const p9y = widthHeight.height - widthHeight.height * 0.55;
   const p10x = widthHeight.width - widthHeight.width * 1;
   const p10y = widthHeight.height - widthHeight.height * 0.3;
@@ -54,7 +64,8 @@ const HomeScreen = () => {
   const p22x = widthHeight.width - widthHeight.width * 0.3;
   const p22y = widthHeight.height - widthHeight.height * 0.3;
 
-  console.log(widthHeight.width);
+  console.log(p1x, p1y);
+  console.log(p2x, p2y);
   return (
     <div className="landing-page-wrapper">
       <div className="landing-page-content">
@@ -129,6 +140,8 @@ const HomeScreen = () => {
               </defs>
             </svg>
           </Draggable>
+        </div>
+        <div className="homedrag-wrapper-desk shake">
           {/* coc */}
           <Draggable
             defaultPosition={{
@@ -193,6 +206,8 @@ const HomeScreen = () => {
               </defs>
             </svg>
           </Draggable>
+        </div>
+        <div className="homedrag-wrapper-desk shake">
           {/* xd */}
           <Draggable
             defaultPosition={{
@@ -254,7 +269,9 @@ const HomeScreen = () => {
                 </filter>
               </defs>
             </svg>
-          </Draggable>{" "}
+          </Draggable>
+        </div>
+        <div className="homedrag-wrapper-desk shake">
           {/* sketch */}
           <Draggable
             defaultPosition={{
@@ -346,7 +363,10 @@ const HomeScreen = () => {
                 </filter>
               </defs>
             </svg>
-          </Draggable>{" "}
+          </Draggable>
+        </div>
+        <div className="homedrag-wrapper-desk shake">
+          {/* figma */}
           <Draggable
             defaultPosition={{
               x: p5x,
@@ -421,7 +441,10 @@ const HomeScreen = () => {
                 </filter>
               </defs>
             </svg>
-          </Draggable>{" "}
+          </Draggable>
+        </div>
+        <div className="homedrag-wrapper-desk shake">
+          {/* ps */}
           <Draggable
             defaultPosition={{
               x: p6x,
@@ -484,6 +507,8 @@ const HomeScreen = () => {
               </defs>
             </svg>
           </Draggable>
+        </div>
+        <div className="homedrag-wrapper-desk shake">
           {/* celestial bodies */}
           <Draggable
             defaultPosition={{
@@ -555,6 +580,8 @@ const HomeScreen = () => {
               </defs>
             </svg>
           </Draggable>
+        </div>
+        <div className="homedrag-wrapper-desk shake">
           {/* p8 */}
           <Draggable
             defaultPosition={{
@@ -626,6 +653,8 @@ const HomeScreen = () => {
               </defs>
             </svg>
           </Draggable>
+        </div>
+        <div className="homedrag-wrapper-desk shake">
           {/* p9 */}
           <Draggable
             defaultPosition={{

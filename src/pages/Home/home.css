@@ -107,14 +107,18 @@
 /* ################################# */
 /* HomeDrag - Home */
 .homedrag-wrapper-desk {
-  width: 100vw;
-  overflow: hidden;
-  height: 100vh;
+
+
   position: absolute;
+  top: 0%;
+  left: 0%;
+  /* transform: translate(-50%,-50%); */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
-.homedrag-wrapper-desk div {
-  width: 50px;
-}
+
 
 
 @media screen and (max-width: 850px) {

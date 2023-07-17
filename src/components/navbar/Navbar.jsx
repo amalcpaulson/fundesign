@@ -45,10 +45,11 @@ const Navbar = () => {
               <p
                 style={{
                   background: window.location.href.includes(`#${content}`)
-                    ? "#B3B3FF"
+                    ? "rgba(103, 54, 178, 0.5)"
                     : "",
                   textTransform: "capitalize",
-                  padding: '5px',
+                  padding: "5px 30px",
+                  borderRadius: "30px",
                 }}
               >
                 {content}
