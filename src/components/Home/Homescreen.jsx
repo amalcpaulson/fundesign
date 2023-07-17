@@ -20,14 +20,14 @@ const HomeScreen = () => {
     height: window.innerHeight,
   });
   const p1x = widthHeight.width - widthHeight.width * 0.25; //ai
-  const p1y = widthHeight.height - widthHeight.height * 0.4;
+  const p1y = widthHeight.height - widthHeight.height * 0.3;
   const p2x = widthHeight.width - widthHeight.width * 0.5; //coc
   const p2y = widthHeight.height - widthHeight.height * 0.35;
   const p3x = widthHeight.width - widthHeight.width * 0.8; //xd
   const p3y = widthHeight.height - widthHeight.height * 0.45;
-  const p4x = widthHeight.width - widthHeight.width * 0.27; //sketch
-  const p4y = widthHeight.height - widthHeight.height * 0.8;
-  const p5x = widthHeight.width - widthHeight.width * 0.54; //figma
+  const p4x = widthHeight.width - widthHeight.width * 0.24; //sketch
+  const p4y = widthHeight.height - widthHeight.height * 0.7;
+  const p5x = widthHeight.width - widthHeight.width * 0.48; //figma
   const p5y = widthHeight.height - widthHeight.height * 0.77;
   const p6x = widthHeight.width - widthHeight.width * 0.78; //ps
   const p6y = widthHeight.height - widthHeight.height * 0.84;
@@ -35,27 +35,27 @@ const HomeScreen = () => {
   const p7y = widthHeight.height - widthHeight.height * 0.67;
   const p8x = widthHeight.width - widthHeight.width * 0.6; //star right of xd
   const p8y = widthHeight.height - widthHeight.height * 0.35;
-  const p9x = widthHeight.width - widthHeight.width * 0.3; //star top of ai
-  const p9y = widthHeight.height - widthHeight.height * 0.55;
-  const p10x = widthHeight.width - widthHeight.width * 1;
-  const p10y = widthHeight.height - widthHeight.height * 0.3;
-  const p11x = widthHeight.width - widthHeight.width * 0.3;
-  const p11y = widthHeight.height - widthHeight.height * 0.3;
-  const p12x = widthHeight.width - widthHeight.width * 0.3;
-  const p12y = widthHeight.height - widthHeight.height * 0.3;
-  const p13x = widthHeight.width - widthHeight.width * 0.3;
-  const p13y = widthHeight.height - widthHeight.height * 0.3;
-  const p14x = widthHeight.width - widthHeight.width * 0.3;
-  const p14y = widthHeight.height - widthHeight.height * 0.3;
-  const p15x = widthHeight.width - widthHeight.width * 0.3;
+  const p9x = widthHeight.width - widthHeight.width * 0.31; //star top of ai
+  const p9y = widthHeight.height - widthHeight.height * 0.49;
+  const p10x = widthHeight.width - widthHeight.width * 0.75; //dot above ps
+  const p10y = widthHeight.height - widthHeight.height * 0.95;
+  const p11x = widthHeight.width - widthHeight.width * 0.65; //dot right ps
+  const p11y = widthHeight.height - widthHeight.height * 0.78;
+  const p12x = widthHeight.width - widthHeight.width * 0.56; //dot center ps and figma
+  const p12y = widthHeight.height - widthHeight.height * 0.72;
+  const p13x = widthHeight.width - widthHeight.width * 0.52; //dot left figma
+  const p13y = widthHeight.height - widthHeight.height * 0.83;
+  const p14x = widthHeight.width - widthHeight.width * 0.33; //dot figma right
+  const p14y = widthHeight.height - widthHeight.height * 0.7;
+  const p15x = widthHeight.width - widthHeight.width * 0.3; //dot bottom sketch
   const p15y = widthHeight.height - widthHeight.height * 0.3;
-  const p16x = widthHeight.width - widthHeight.width * 0.3;
+  const p16x = widthHeight.width - widthHeight.width * 0.3; //dot above sketch
   const p16y = widthHeight.height - widthHeight.height * 0.3;
-  const p17x = widthHeight.width - widthHeight.width * 0.3;
+  const p17x = widthHeight.width - widthHeight.width * 0.3; //dot above xd
   const p17y = widthHeight.height - widthHeight.height * 0.3;
-  const p18x = widthHeight.width - widthHeight.width * 0.3;
+  const p18x = widthHeight.width - widthHeight.width * 0.3; //dot below xd
   const p18y = widthHeight.height - widthHeight.height * 0.3;
-  const p19x = widthHeight.width - widthHeight.width * 0.3;
+  const p19x = widthHeight.width - widthHeight.width * 0.3; //dot on p
   const p19y = widthHeight.height - widthHeight.height * 0.3;
   const p20x = widthHeight.width - widthHeight.width * 0.3;
   const p20y = widthHeight.height - widthHeight.height * 0.3;
@@ -664,25 +664,25 @@ const HomeScreen = () => {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="132"
-              height="126"
-              viewBox="0 0 132 126"
+              width="200"
+              height="200"
+              viewBox="0 0 215 207"
               fill="none"
               className="dragComponents"
             >
-              <g filter="url(#filter0_d_442_249)">
+              <g filter="url(#filter0_d_442_247)">
                 <path
-                  d="M64.1131 89.1831C61.7203 88.9889 59.8484 87.2098 59.6419 84.8906C57.4722 64.2064 54.6041 61.1184 33.3907 57.1559C30.9464 56.6813 29.1562 54.6325 29.2769 52.4318C29.3994 50.2007 31.361 48.5178 33.8388 48.3811C55.191 47.3814 57.9473 45.2104 62.9211 25.1365C63.4773 22.9098 65.4605 21.4436 67.8201 21.6351C70.2462 21.8319 72.0848 23.6083 72.3577 25.933C74.4627 46.5813 77.3308 49.6691 98.511 53.6291C101.02 54.1397 102.78 56.1246 102.656 58.3863C102.536 60.587 100.64 62.2753 98.0961 62.4066C76.7073 63.4647 73.986 65.6078 69.0785 85.687C68.4542 87.9389 66.4395 89.3719 64.1131 89.1831Z"
-                  fill="url(#paint0_radial_442_249)"
+                  d="M118.124 134.096C114.919 134.927 111.785 133.429 110.623 130.461C99.8252 104.145 94.8847 101.372 65.6065 105.778C62.2261 106.261 59.0955 104.37 58.4067 101.411C57.7084 98.4101 59.6273 95.2979 62.8164 93.992C90.3666 82.9739 93.1373 78.8564 91.9204 50.1014C91.7913 46.9097 93.8216 44.0736 96.9824 43.2545C100.232 42.4124 103.321 43.9219 104.573 46.8664C115.272 73.1642 120.212 75.9371 149.446 71.5434C152.925 71.0777 155.992 72.8981 156.7 75.9397C157.389 78.8993 155.559 81.9885 152.281 83.3174C124.705 94.4294 121.969 98.4942 123.275 127.226C123.325 130.482 121.24 133.288 118.124 134.096Z"
+                  fill="url(#paint0_radial_442_247)"
                 />
               </g>
               <defs>
                 <filter
-                  id="filter0_d_442_249"
-                  x="0.117048"
-                  y="0.0544758"
-                  width="131.699"
-                  height="125.89"
+                  id="filter0_d_442_247"
+                  x="0.838474"
+                  y="0.548446"
+                  width="213.43"
+                  height="206.151"
                   filterUnits="userSpaceOnUse"
                   color-interpolation-filters="sRGB"
                 >
@@ -693,32 +693,782 @@ const HomeScreen = () => {
                     values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
                     result="hardAlpha"
                   />
-                  <feOffset dy="7.5905" />
-                  <feGaussianBlur stdDeviation="14.5772" />
+                  <feOffset dy="14.9509" />
+                  <feGaussianBlur stdDeviation="28.7126" />
                   <feComposite in2="hardAlpha" operator="out" />
                   <feColorMatrix
                     type="matrix"
-                    values="0 0 0 0 0.220722 0 0 0 0 0.210451 0 0 0 0 0.241667 0 0 0 0.6 0"
+                    values="0 0 0 0 0.296824 0 0 0 0 0.244184 0 0 0 0 0.404167 0 0 0 0.6 0"
                   />
                   <feBlend
                     mode="normal"
                     in2="BackgroundImageFix"
-                    result="effect1_dropShadow_442_249"
+                    result="effect1_dropShadow_442_247"
                   />
                   <feBlend
                     mode="normal"
                     in="SourceGraphic"
-                    in2="effect1_dropShadow_442_249"
+                    in2="effect1_dropShadow_442_247"
                     result="shape"
                   />
                 </filter>
                 <radialGradient
-                  id="paint0_radial_442_249"
+                  id="paint0_radial_442_247"
                   cx="0"
                   cy="0"
                   r="1"
                   gradientUnits="userSpaceOnUse"
-                  gradientTransform="translate(89.4566 79.9315) rotate(-150.298) scale(53.2134 50.7735)"
+                  gradientTransform="translate(147.721 110.373) rotate(-168.937) scale(71.9544 71.404)"
+                >
+                  <stop stop-color="#DABFFF" />
+                  <stop offset="1" stop-color="#874FFF" />
+                </radialGradient>
+              </defs>
+            </svg>
+          </Draggable>
+        </div>{" "}
+        <div className="homedrag-wrapper-desk shake">
+          {/* p10 */}
+          <Draggable
+            defaultPosition={{
+              x: p10x,
+              y: p10y,
+            }}
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="43"
+              height="43"
+              viewBox="0 0 43 43"
+              fill="none"
+              className="dragComponents"
+            >
+              <g filter="url(#filter0_d_442_236)">
+                <circle
+                  cx="21.5"
+                  cy="21.5"
+                  r="11.5"
+                  fill="url(#paint0_radial_442_236)"
+                />
+              </g>
+              <defs>
+                <filter
+                  id="filter0_d_442_236"
+                  x="0.795458"
+                  y="0.795458"
+                  width="41.4091"
+                  height="41.4091"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset />
+                  <feGaussianBlur stdDeviation="4.60227" />
+                  <feComposite in2="hardAlpha" operator="out" />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 0.592157 0 0 0 0 0.392157 0 0 0 0 1 0 0 0 1 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="BackgroundImageFix"
+                    result="effect1_dropShadow_442_236"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="effect1_dropShadow_442_236"
+                    result="shape"
+                  />
+                </filter>
+                <radialGradient
+                  id="paint0_radial_442_236"
+                  cx="0"
+                  cy="0"
+                  r="1"
+                  gradientUnits="userSpaceOnUse"
+                  gradientTransform="translate(13.75 29.1667) rotate(-27.2669) scale(16.7345 17.1547)"
+                >
+                  <stop stop-color="#DABFFF" />
+                  <stop offset="1" stop-color="#874FFF" />
+                </radialGradient>
+              </defs>
+            </svg>
+          </Draggable>
+        </div>
+        <div className="homedrag-wrapper-desk shake">
+          {/* p11 */}
+          <Draggable
+            defaultPosition={{
+              x: p11x,
+              y: p11y,
+            }}
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              viewBox="0 0 30 30"
+              fill="none"
+              className="dragComponents"
+            >
+              <g filter="url(#filter0_d_442_241)">
+                <circle
+                  cx="15"
+                  cy="15"
+                  r="5"
+                  fill="url(#paint0_radial_442_241)"
+                />
+              </g>
+              <defs>
+                <filter
+                  id="filter0_d_442_241"
+                  x="0.795458"
+                  y="0.795458"
+                  width="28.4091"
+                  height="28.4091"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset />
+                  <feGaussianBlur stdDeviation="4.60227" />
+                  <feComposite in2="hardAlpha" operator="out" />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 0.592157 0 0 0 0 0.392157 0 0 0 0 1 0 0 0 1 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="BackgroundImageFix"
+                    result="effect1_dropShadow_442_241"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="effect1_dropShadow_442_241"
+                    result="shape"
+                  />
+                </filter>
+                <radialGradient
+                  id="paint0_radial_442_241"
+                  cx="0"
+                  cy="0"
+                  r="1"
+                  gradientUnits="userSpaceOnUse"
+                  gradientTransform="translate(11.6304 18.3333) rotate(-27.2669) scale(7.27587 7.45858)"
+                >
+                  <stop stop-color="#DABFFF" />
+                  <stop offset="1" stop-color="#874FFF" />
+                </radialGradient>
+              </defs>
+            </svg>
+          </Draggable>
+        </div>{" "}
+        <div className="homedrag-wrapper-desk shake">
+          {/* p12 */}
+          <Draggable
+            defaultPosition={{
+              x: p12x,
+              y: p12y,
+            }}
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="43"
+              height="43"
+              viewBox="0 0 43 43"
+              fill="none"
+              className="dragComponents"
+            >
+              <g filter="url(#filter0_d_442_237)">
+                <circle
+                  cx="21.5"
+                  cy="21.5"
+                  r="11.5"
+                  fill="url(#paint0_radial_442_237)"
+                />
+              </g>
+              <defs>
+                <filter
+                  id="filter0_d_442_237"
+                  x="0.795458"
+                  y="0.795458"
+                  width="41.4091"
+                  height="41.4091"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset />
+                  <feGaussianBlur stdDeviation="4.60227" />
+                  <feComposite in2="hardAlpha" operator="out" />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 0.592157 0 0 0 0 0.392157 0 0 0 0 1 0 0 0 1 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="BackgroundImageFix"
+                    result="effect1_dropShadow_442_237"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="effect1_dropShadow_442_237"
+                    result="shape"
+                  />
+                </filter>
+                <radialGradient
+                  id="paint0_radial_442_237"
+                  cx="0"
+                  cy="0"
+                  r="1"
+                  gradientUnits="userSpaceOnUse"
+                  gradientTransform="translate(13.75 29.1667) rotate(-27.2669) scale(16.7345 17.1547)"
+                >
+                  <stop stop-color="#DABFFF" />
+                  <stop offset="1" stop-color="#874FFF" />
+                </radialGradient>
+              </defs>
+            </svg>
+          </Draggable>
+        </div>
+        <div className="homedrag-wrapper-desk shake">
+          {/* p13 */}
+          <Draggable
+            defaultPosition={{
+              x: p13x,
+              y: p13y,
+            }}
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="40"
+              height="40"
+              viewBox="0 0 43 43"
+              fill="none"
+              className="dragComponents"
+            >
+              <g filter="url(#filter0_d_442_246)">
+                <circle
+                  cx="21.5"
+                  cy="21.5"
+                  r="6.5"
+                  fill="url(#paint0_radial_442_246)"
+                />
+              </g>
+              <defs>
+                <filter
+                  id="filter0_d_442_246"
+                  x="0.535717"
+                  y="0.535717"
+                  width="41.9286"
+                  height="41.9286"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset />
+                  <feGaussianBlur stdDeviation="7.23214" />
+                  <feComposite in2="hardAlpha" operator="out" />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 0.592157 0 0 0 0 0.392157 0 0 0 0 1 0 0 0 1 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="BackgroundImageFix"
+                    result="effect1_dropShadow_442_246"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="effect1_dropShadow_442_246"
+                    result="shape"
+                  />
+                </filter>
+                <radialGradient
+                  id="paint0_radial_442_246"
+                  cx="0"
+                  cy="0"
+                  r="1"
+                  gradientUnits="userSpaceOnUse"
+                  gradientTransform="translate(17.1196 25.8333) rotate(-27.2669) scale(9.45863 9.69615)"
+                >
+                  <stop stop-color="#DABFFF" />
+                  <stop offset="1" stop-color="#874FFF" />
+                </radialGradient>
+              </defs>
+            </svg>
+          </Draggable>
+        </div>{" "}
+        <div className="homedrag-wrapper-desk shake">
+          {/* p14 */}
+          <Draggable
+            defaultPosition={{
+              x: p14x,
+              y: p14y,
+            }}
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="43"
+              height="43"
+              viewBox="0 0 43 43"
+              fill="none"
+              className="dragComponents"
+            >
+              <g filter="url(#filter0_d_442_237)">
+                <circle
+                  cx="21.5"
+                  cy="21.5"
+                  r="11.5"
+                  fill="url(#paint0_radial_442_237)"
+                />
+              </g>
+              <defs>
+                <filter
+                  id="filter0_d_442_237"
+                  x="0.795458"
+                  y="0.795458"
+                  width="41.4091"
+                  height="41.4091"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset />
+                  <feGaussianBlur stdDeviation="4.60227" />
+                  <feComposite in2="hardAlpha" operator="out" />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 0.592157 0 0 0 0 0.392157 0 0 0 0 1 0 0 0 1 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="BackgroundImageFix"
+                    result="effect1_dropShadow_442_237"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="effect1_dropShadow_442_237"
+                    result="shape"
+                  />
+                </filter>
+                <radialGradient
+                  id="paint0_radial_442_237"
+                  cx="0"
+                  cy="0"
+                  r="1"
+                  gradientUnits="userSpaceOnUse"
+                  gradientTransform="translate(13.75 29.1667) rotate(-27.2669) scale(16.7345 17.1547)"
+                >
+                  <stop stop-color="#DABFFF" />
+                  <stop offset="1" stop-color="#874FFF" />
+                </radialGradient>
+              </defs>
+            </svg>
+          </Draggable>
+        </div>
+        <div className="homedrag-wrapper-desk shake">
+          {/* p15 */}
+          <Draggable
+            defaultPosition={{
+              x: p15x,
+              y: p15y,
+            }}
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              viewBox="0 0 30 30"
+              fill="none"
+              className="dragComponents"
+            >
+              <g filter="url(#filter0_d_442_238)">
+                <circle
+                  cx="15"
+                  cy="15"
+                  r="5"
+                  fill="url(#paint0_radial_442_238)"
+                />
+              </g>
+              <defs>
+                <filter
+                  id="filter0_d_442_238"
+                  x="0.795458"
+                  y="0.795458"
+                  width="28.4091"
+                  height="28.4091"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset />
+                  <feGaussianBlur stdDeviation="4.60227" />
+                  <feComposite in2="hardAlpha" operator="out" />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 0.592157 0 0 0 0 0.392157 0 0 0 0 1 0 0 0 1 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="BackgroundImageFix"
+                    result="effect1_dropShadow_442_238"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="effect1_dropShadow_442_238"
+                    result="shape"
+                  />
+                </filter>
+                <radialGradient
+                  id="paint0_radial_442_238"
+                  cx="0"
+                  cy="0"
+                  r="1"
+                  gradientUnits="userSpaceOnUse"
+                  gradientTransform="translate(11.6304 18.3333) rotate(-27.2669) scale(7.27587 7.45858)"
+                >
+                  <stop stop-color="#DABFFF" />
+                  <stop offset="1" stop-color="#874FFF" />
+                </radialGradient>
+              </defs>
+            </svg>
+          </Draggable>
+        </div>
+        <div className="homedrag-wrapper-desk shake">
+          {/* p16 */}
+          <Draggable
+            defaultPosition={{
+              x: p16x,
+              y: p16y,
+            }}
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="70"
+              height="70"
+              viewBox="0 0 70 70"
+              fill="none"
+              className="dragComponents"
+            >
+              <g filter="url(#filter0_d_442_243)">
+                <circle
+                  cx="35"
+                  cy="35"
+                  r="11"
+                  fill="url(#paint0_radial_442_243)"
+                />
+              </g>
+              <defs>
+                <filter
+                  id="filter0_d_442_243"
+                  x="0.121216"
+                  y="0.121216"
+                  width="69.7576"
+                  height="69.7576"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset />
+                  <feGaussianBlur stdDeviation="11.9394" />
+                  <feComposite in2="hardAlpha" operator="out" />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 0.592157 0 0 0 0 0.392157 0 0 0 0 1 0 0 0 1 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="BackgroundImageFix"
+                    result="effect1_dropShadow_442_243"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="effect1_dropShadow_442_243"
+                    result="shape"
+                  />
+                </filter>
+                <radialGradient
+                  id="paint0_radial_442_243"
+                  cx="0"
+                  cy="0"
+                  r="1"
+                  gradientUnits="userSpaceOnUse"
+                  gradientTransform="translate(27.587 42.3333) rotate(-27.2669) scale(16.0069 16.4089)"
+                >
+                  <stop stop-color="#DABFFF" />
+                  <stop offset="1" stop-color="#874FFF" />
+                </radialGradient>
+              </defs>
+            </svg>
+          </Draggable>
+        </div>
+        <div className="homedrag-wrapper-desk shake">
+          {/* p17 */}
+          <Draggable
+            defaultPosition={{
+              x: p17x,
+              y: p17y,
+            }}
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              viewBox="0 0 30 30"
+              fill="none"
+              className="dragComponents"
+            >
+              <g filter="url(#filter0_d_442_242)">
+                <circle
+                  cx="15"
+                  cy="15"
+                  r="5"
+                  fill="url(#paint0_radial_442_242)"
+                />
+              </g>
+              <defs>
+                <filter
+                  id="filter0_d_442_242"
+                  x="0.795458"
+                  y="0.795458"
+                  width="28.4091"
+                  height="28.4091"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset />
+                  <feGaussianBlur stdDeviation="4.60227" />
+                  <feComposite in2="hardAlpha" operator="out" />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 0.592157 0 0 0 0 0.392157 0 0 0 0 1 0 0 0 1 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="BackgroundImageFix"
+                    result="effect1_dropShadow_442_242"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="effect1_dropShadow_442_242"
+                    result="shape"
+                  />
+                </filter>
+                <radialGradient
+                  id="paint0_radial_442_242"
+                  cx="0"
+                  cy="0"
+                  r="1"
+                  gradientUnits="userSpaceOnUse"
+                  gradientTransform="translate(11.6304 18.3333) rotate(-27.2669) scale(7.27587 7.45858)"
+                >
+                  <stop stop-color="#DABFFF" />
+                  <stop offset="1" stop-color="#874FFF" />
+                </radialGradient>
+              </defs>
+            </svg>
+          </Draggable>
+        </div>
+        <div className="homedrag-wrapper-desk shake">
+          {/* p18 */}
+          <Draggable
+            defaultPosition={{
+              x: p18x,
+              y: p18y,
+            }}
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              viewBox="0 0 30 30"
+              fill="none"
+              className="dragComponents"
+            >
+              <g filter="url(#filter0_d_442_242)">
+                <circle
+                  cx="15"
+                  cy="15"
+                  r="5"
+                  fill="url(#paint0_radial_442_242)"
+                />
+              </g>
+              <defs>
+                <filter
+                  id="filter0_d_442_242"
+                  x="0.795458"
+                  y="0.795458"
+                  width="28.4091"
+                  height="28.4091"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset />
+                  <feGaussianBlur stdDeviation="4.60227" />
+                  <feComposite in2="hardAlpha" operator="out" />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 0.592157 0 0 0 0 0.392157 0 0 0 0 1 0 0 0 1 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="BackgroundImageFix"
+                    result="effect1_dropShadow_442_242"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="effect1_dropShadow_442_242"
+                    result="shape"
+                  />
+                </filter>
+                <radialGradient
+                  id="paint0_radial_442_242"
+                  cx="0"
+                  cy="0"
+                  r="1"
+                  gradientUnits="userSpaceOnUse"
+                  gradientTransform="translate(11.6304 18.3333) rotate(-27.2669) scale(7.27587 7.45858)"
+                >
+                  <stop stop-color="#DABFFF" />
+                  <stop offset="1" stop-color="#874FFF" />
+                </radialGradient>
+              </defs>
+            </svg>
+          </Draggable>
+        </div>
+        <div className="homedrag-wrapper-desk shake">
+          {/* p19 */}
+          <Draggable
+            defaultPosition={{
+              x: p19x,
+              y: p19y,
+            }}
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="70"
+              height="70"
+              viewBox="0 0 70 70"
+              fill="none"
+              className="dragComponents"
+            >
+              <g filter="url(#filter0_d_442_245)">
+                <circle
+                  cx="35"
+                  cy="35"
+                  r="11"
+                  fill="url(#paint0_radial_442_245)"
+                />
+              </g>
+              <defs>
+                <filter
+                  id="filter0_d_442_245"
+                  x="0.121216"
+                  y="0.121216"
+                  width="69.7576"
+                  height="69.7576"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset />
+                  <feGaussianBlur stdDeviation="11.9394" />
+                  <feComposite in2="hardAlpha" operator="out" />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 0.592157 0 0 0 0 0.392157 0 0 0 0 1 0 0 0 1 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="BackgroundImageFix"
+                    result="effect1_dropShadow_442_245"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="effect1_dropShadow_442_245"
+                    result="shape"
+                  />
+                </filter>
+                <radialGradient
+                  id="paint0_radial_442_245"
+                  cx="0"
+                  cy="0"
+                  r="1"
+                  gradientUnits="userSpaceOnUse"
+                  gradientTransform="translate(27.587 42.3333) rotate(-27.2669) scale(16.0069 16.4089)"
                 >
                   <stop stop-color="#DABFFF" />
                   <stop offset="1" stop-color="#874FFF" />
