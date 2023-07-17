@@ -9,25 +9,25 @@ const HomeScreen = () => {
     width: window.innerWidth,
     height: window.innerHeight,
   });
-  const p1x = widthHeight.width - widthHeight.width * 0.3; //ai
+  const p1x = widthHeight.width - widthHeight.width * 0.25; //ai
   const p1y = widthHeight.height - widthHeight.height * 0.4;
-  const p2x = widthHeight.width - widthHeight.width * 0.57;//coc
+  const p2x = widthHeight.width - widthHeight.width * 0.57; //coc
   const p2y = widthHeight.height - widthHeight.height * 0.35;
-  const p3x = widthHeight.width - widthHeight.width * 0.9;//xd
+  const p3x = widthHeight.width - widthHeight.width * 0.9; //xd
   const p3y = widthHeight.height - widthHeight.height * 0.5;
-  const p4x = widthHeight.width - widthHeight.width * 0.37;//sketch
+  const p4x = widthHeight.width - widthHeight.width * 0.37; //sketch
   const p4y = widthHeight.height - widthHeight.height * 0.8;
-  const p5x = widthHeight.width - widthHeight.width * 0.74;//figma
+  const p5x = widthHeight.width - widthHeight.width * 0.74; //figma
   const p5y = widthHeight.height - widthHeight.height * 0.87;
-  const p6x = widthHeight.width - widthHeight.width * 1.15;//ps
+  const p6x = widthHeight.width - widthHeight.width * 1.15; //ps
   const p6y = widthHeight.height - widthHeight.height * 0.94;
-  const p7x = widthHeight.width - widthHeight.width * 1.25;//star under ps
+  const p7x = widthHeight.width - widthHeight.width * 1.25; //star under ps
   const p7y = widthHeight.height - widthHeight.height * 0.67;
-  const p8x = widthHeight.width - widthHeight.width * 0.3;
-  const p8y = widthHeight.height - widthHeight.height * 0.3;
-  const p9x = widthHeight.width - widthHeight.width * 0.3;
-  const p9y = widthHeight.height - widthHeight.height * 0.3;
-  const p10x = widthHeight.width - widthHeight.width * 0.3;
+  const p8x = widthHeight.width - widthHeight.width * 1.1; //star right of xd
+  const p8y = widthHeight.height - widthHeight.height * 0.35;
+  const p9x = widthHeight.width - widthHeight.width * 0.8; //star top of ai
+  const p9y = widthHeight.height - widthHeight.height * 0.55;
+  const p10x = widthHeight.width - widthHeight.width * 1;
   const p10y = widthHeight.height - widthHeight.height * 0.3;
   const p11x = widthHeight.width - widthHeight.width * 0.3;
   const p11y = widthHeight.height - widthHeight.height * 0.3;
@@ -76,8 +76,8 @@ const HomeScreen = () => {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="129"
-              height="127"
+              width="100"
+              height="100"
               viewBox="0 0 129 127"
               fill="none"
               className="dragComponents"
@@ -138,8 +138,8 @@ const HomeScreen = () => {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="114"
-              height="146"
+              width="100"
+              height="100"
               viewBox="0 0 114 146"
               fill="none"
               className="dragComponents"
@@ -202,7 +202,7 @@ const HomeScreen = () => {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="110"
+              width="100"
               height="108"
               viewBox="0 0 110 108"
               fill="none"
@@ -264,8 +264,8 @@ const HomeScreen = () => {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="108"
-              height="101"
+              width="100"
+              height="100"
               viewBox="0 0 108 101"
               fill="none"
               className="dragComponents"
@@ -356,7 +356,7 @@ const HomeScreen = () => {
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="95"
-              height="123"
+              height="100"
               viewBox="0 0 95 123"
               fill="none"
               className="dragComponents"
@@ -430,10 +430,11 @@ const HomeScreen = () => {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="128"
-              height="126"
+              width="100"
+              height="100"
               viewBox="0 0 128 126"
               fill="none"
+              className="dragComponents"
             >
               <g filter="url(#filter0_d_433_69)">
                 <path
@@ -492,8 +493,8 @@ const HomeScreen = () => {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="217"
-              height="208"
+              width="200"
+              height="200"
               viewBox="0 0 217 208"
               fill="none"
               className="dragComponents"
@@ -547,6 +548,148 @@ const HomeScreen = () => {
                   r="1"
                   gradientUnits="userSpaceOnUse"
                   gradientTransform="translate(137.668 123.841) rotate(-146.937) scale(71.9544 71.404)"
+                >
+                  <stop stop-color="#DABFFF" />
+                  <stop offset="1" stop-color="#874FFF" />
+                </radialGradient>
+              </defs>
+            </svg>
+          </Draggable>
+          {/* p8 */}
+          <Draggable
+            defaultPosition={{
+              x: p8x,
+              y: p8y,
+            }}
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="110"
+              height="110"
+              viewBox="0 0 132 126"
+              fill="none"
+              className="dragComponents"
+            >
+              <g filter="url(#filter0_d_442_249)">
+                <path
+                  d="M64.1131 89.1831C61.7203 88.9889 59.8484 87.2098 59.6419 84.8906C57.4722 64.2064 54.6041 61.1184 33.3907 57.1559C30.9464 56.6813 29.1562 54.6325 29.2769 52.4318C29.3994 50.2007 31.361 48.5178 33.8388 48.3811C55.191 47.3814 57.9473 45.2104 62.9211 25.1365C63.4773 22.9098 65.4605 21.4436 67.8201 21.6351C70.2462 21.8319 72.0848 23.6083 72.3577 25.933C74.4627 46.5813 77.3308 49.6691 98.511 53.6291C101.02 54.1397 102.78 56.1246 102.656 58.3863C102.536 60.587 100.64 62.2753 98.0961 62.4066C76.7073 63.4647 73.986 65.6078 69.0785 85.687C68.4542 87.9389 66.4395 89.3719 64.1131 89.1831Z"
+                  fill="url(#paint0_radial_442_249)"
+                />
+              </g>
+              <defs>
+                <filter
+                  id="filter0_d_442_249"
+                  x="0.117048"
+                  y="0.0544758"
+                  width="131.699"
+                  height="125.89"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset dy="7.5905" />
+                  <feGaussianBlur stdDeviation="14.5772" />
+                  <feComposite in2="hardAlpha" operator="out" />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 0.220722 0 0 0 0 0.210451 0 0 0 0 0.241667 0 0 0 0.6 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="BackgroundImageFix"
+                    result="effect1_dropShadow_442_249"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="effect1_dropShadow_442_249"
+                    result="shape"
+                  />
+                </filter>
+                <radialGradient
+                  id="paint0_radial_442_249"
+                  cx="0"
+                  cy="0"
+                  r="1"
+                  gradientUnits="userSpaceOnUse"
+                  gradientTransform="translate(89.4566 79.9315) rotate(-150.298) scale(53.2134 50.7735)"
+                >
+                  <stop stop-color="#DABFFF" />
+                  <stop offset="1" stop-color="#874FFF" />
+                </radialGradient>
+              </defs>
+            </svg>
+          </Draggable>
+          {/* p9 */}
+          <Draggable
+            defaultPosition={{
+              x: p9x,
+              y: p9y,
+            }}
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="132"
+              height="126"
+              viewBox="0 0 132 126"
+              fill="none"
+              className="dragComponents"
+            >
+              <g filter="url(#filter0_d_442_249)">
+                <path
+                  d="M64.1131 89.1831C61.7203 88.9889 59.8484 87.2098 59.6419 84.8906C57.4722 64.2064 54.6041 61.1184 33.3907 57.1559C30.9464 56.6813 29.1562 54.6325 29.2769 52.4318C29.3994 50.2007 31.361 48.5178 33.8388 48.3811C55.191 47.3814 57.9473 45.2104 62.9211 25.1365C63.4773 22.9098 65.4605 21.4436 67.8201 21.6351C70.2462 21.8319 72.0848 23.6083 72.3577 25.933C74.4627 46.5813 77.3308 49.6691 98.511 53.6291C101.02 54.1397 102.78 56.1246 102.656 58.3863C102.536 60.587 100.64 62.2753 98.0961 62.4066C76.7073 63.4647 73.986 65.6078 69.0785 85.687C68.4542 87.9389 66.4395 89.3719 64.1131 89.1831Z"
+                  fill="url(#paint0_radial_442_249)"
+                />
+              </g>
+              <defs>
+                <filter
+                  id="filter0_d_442_249"
+                  x="0.117048"
+                  y="0.0544758"
+                  width="131.699"
+                  height="125.89"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset dy="7.5905" />
+                  <feGaussianBlur stdDeviation="14.5772" />
+                  <feComposite in2="hardAlpha" operator="out" />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 0.220722 0 0 0 0 0.210451 0 0 0 0 0.241667 0 0 0 0.6 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="BackgroundImageFix"
+                    result="effect1_dropShadow_442_249"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="effect1_dropShadow_442_249"
+                    result="shape"
+                  />
+                </filter>
+                <radialGradient
+                  id="paint0_radial_442_249"
+                  cx="0"
+                  cy="0"
+                  r="1"
+                  gradientUnits="userSpaceOnUse"
+                  gradientTransform="translate(89.4566 79.9315) rotate(-150.298) scale(53.2134 50.7735)"
                 >
                   <stop stop-color="#DABFFF" />
                   <stop offset="1" stop-color="#874FFF" />
