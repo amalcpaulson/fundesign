@@ -1640,6 +1640,134 @@ const HomeScreen = () => {
               </p>
             </div>
           </div>
+          <div className="home-about-star-one">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="153"
+              height="153"
+              viewBox="0 0 153 153"
+              fill="none"
+            >
+              <g filter="url(#filter0_d_438_384)">
+                <path
+                  d="M82.4907 107.734C79.8607 108.131 77.4138 106.522 76.6357 103.84C69.3422 80.0076 65.5065 77.1149 41.6544 77.9884C38.9018 78.0677 36.4785 76.1191 36.0821 73.4915C35.6803 70.8275 37.3954 68.3293 40.0379 67.5201C62.8521 60.7569 65.3083 57.4751 65.8736 32.4946C65.9411 29.7224 67.7313 27.4742 70.3248 27.0829C72.9913 26.6807 75.4016 28.2953 76.2527 30.9663C83.4677 54.7732 87.3034 57.6656 111.119 56.7978C113.95 56.744 116.326 58.6251 116.733 61.3256C117.13 63.9532 115.488 66.4404 112.772 67.2606C89.9324 74.1024 87.5072 77.3421 87.0148 102.312C86.8799 105.131 85.0476 107.348 82.4907 107.734Z"
+                  fill="url(#paint0_radial_438_384)"
+                />
+              </g>
+              <defs>
+                <filter
+                  id="filter0_d_438_384"
+                  x="0.796944"
+                  y="0.966629"
+                  width="151.223"
+                  height="151.225"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset dy="9.17139" />
+                  <feGaussianBlur stdDeviation="17.6132" />
+                  <feComposite in2="hardAlpha" operator="out" />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 0.220722 0 0 0 0 0.210451 0 0 0 0 0.241667 0 0 0 0.6 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="BackgroundImageFix"
+                    result="effect1_dropShadow_438_384"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="effect1_dropShadow_438_384"
+                    result="shape"
+                  />
+                </filter>
+                <radialGradient
+                  id="paint0_radial_438_384"
+                  cx="0"
+                  cy="0"
+                  r="1"
+                  gradientUnits="userSpaceOnUse"
+                  gradientTransform="translate(107.639 90.1929) rotate(-161.311) scale(59.3446 60.8349)"
+                >
+                  <stop stop-color="#DABFFF" />
+                  <stop offset="1" stop-color="#874FFF" />
+                </radialGradient>
+              </defs>
+            </svg>
+          </div>
+          <div className="home-about-star-two">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="153"
+              height="153"
+              viewBox="0 0 153 153"
+              fill="none"
+            >
+              <g filter="url(#filter0_d_438_384)">
+                <path
+                  d="M82.4907 107.734C79.8607 108.131 77.4138 106.522 76.6357 103.84C69.3422 80.0076 65.5065 77.1149 41.6544 77.9884C38.9018 78.0677 36.4785 76.1191 36.0821 73.4915C35.6803 70.8275 37.3954 68.3293 40.0379 67.5201C62.8521 60.7569 65.3083 57.4751 65.8736 32.4946C65.9411 29.7224 67.7313 27.4742 70.3248 27.0829C72.9913 26.6807 75.4016 28.2953 76.2527 30.9663C83.4677 54.7732 87.3034 57.6656 111.119 56.7978C113.95 56.744 116.326 58.6251 116.733 61.3256C117.13 63.9532 115.488 66.4404 112.772 67.2606C89.9324 74.1024 87.5072 77.3421 87.0148 102.312C86.8799 105.131 85.0476 107.348 82.4907 107.734Z"
+                  fill="url(#paint0_radial_438_384)"
+                />
+              </g>
+              <defs>
+                <filter
+                  id="filter0_d_438_384"
+                  x="0.796944"
+                  y="0.966629"
+                  width="151.223"
+                  height="151.225"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset dy="9.17139" />
+                  <feGaussianBlur stdDeviation="17.6132" />
+                  <feComposite in2="hardAlpha" operator="out" />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 0.220722 0 0 0 0 0.210451 0 0 0 0 0.241667 0 0 0 0.6 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="BackgroundImageFix"
+                    result="effect1_dropShadow_438_384"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="effect1_dropShadow_438_384"
+                    result="shape"
+                  />
+                </filter>
+                <radialGradient
+                  id="paint0_radial_438_384"
+                  cx="0"
+                  cy="0"
+                  r="1"
+                  gradientUnits="userSpaceOnUse"
+                  gradientTransform="translate(107.639 90.1929) rotate(-161.311) scale(59.3446 60.8349)"
+                >
+                  <stop stop-color="#DABFFF" />
+                  <stop offset="1" stop-color="#874FFF" />
+                </radialGradient>
+              </defs>
+            </svg>
+          </div>
         </div>
       </div>
     </div>

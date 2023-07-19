@@ -7,9 +7,9 @@
   flex-direction: column;
   gap: 50px;
   padding: 0%;
-    width: 100vw;
-    background: rgba(25, 11, 46, 1);
-    color: white;
+  width: 100vw;
+  background: rgba(25, 11, 46, 1);
+  color: white;
 }
 /* ################################# */
 /* Landing - Home */
@@ -20,9 +20,7 @@
   color: white;
   background: url("../../assets/Home/landing/fog.png") center center/cover
     no-repeat;
- 
 }
-
 
 .landing-page-content {
   position: absolute;
@@ -32,10 +30,8 @@
   z-index: 9000;
   display: grid;
   place-items: center;
-
- 
 }
-.landing-page-content >.landing-page-main-content {
+.landing-page-content > .landing-page-main-content {
   width: 55%;
 }
 .landing-page-content h2 {
@@ -76,7 +72,6 @@
   color: white;
 }
 
-
 @keyframes shake {
   0% {
     transform: translate(0px, 11px);
@@ -96,37 +91,50 @@
 }
 
 .shake {
- 
   animation: shake 8s infinite;
 }
-.dragComponents{ cursor: grab;}
+.dragComponents {
+  cursor: grab;
+}
 
-.home-about-wrapper{
+.home-about-wrapper {
+  position: absolute;
   width: 100%;
   height: fit-content;
   display: flex;
   align-items: center;
   justify-content: center;
+  bottom: -8%;
 }
 
-.home-about-outer-wrapper{
+.home-about-outer-wrapper {
   background-color: rgba(255, 255, 255, 0.1);
   text-align: center;
-   display: flex;
+  display: flex;
   align-items: center;
   justify-content: center;
-padding: 10px;
+  padding: 10px;
   width: 70%;
   border-radius: 20px;
 }
-.home-about-inner-wrapper{
+.home-about-inner-wrapper {
   border-radius: 20px;
-padding: 15px;
+  padding: 15px 60px;
 
   background-color: rgba(160, 112, 243, 0.7);
 }
-.home-about-inner-wrapper>p{
+.home-about-inner-wrapper > p {
   width: 100%;
+}
+.home-about-star-one {
+  position: absolute;
+  left: 10%;
+  bottom: -100%;
+}
+.home-about-star-two {
+  position: absolute;
+  right: 11%;
+  bottom: 40%;
 }
 @media screen and (max-width: 1000px) {
 }
@@ -135,8 +143,6 @@ padding: 15px;
 /* ################################# */
 /* HomeDrag - Home */
 .homedrag-wrapper-desk {
-
-
   position: absolute;
   top: 0%;
   left: 0%;
@@ -147,13 +153,9 @@ padding: 15px;
   justify-content: center;
 }
 
-
-
 @media screen and (max-width: 850px) {
-
 }
 @media screen and (max-width: 500px) {
-
 }
 /* ################################# */
 /* About - Home */
@@ -204,7 +206,6 @@ padding: 15px;
   gap: 5px;
 }
 
-
 /* ################################# */
 /* Projects - Home */
 
@@ -224,7 +225,6 @@ padding: 15px;
   align-items: center;
   justify-content: center;
   gap: 10px;
-
 }
 
 .projects-individual-wrapper {
@@ -234,7 +234,7 @@ padding: 15px;
   padding: 15px;
   border-radius: 15px;
   gap: 10px;
-  background: rgba(255,255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(30px);
   box-shadow: 0px 0px 29.92466926574707px 0px rgba(0, 0, 0, 0.08);
 }
