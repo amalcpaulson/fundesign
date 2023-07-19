@@ -1627,6 +1627,20 @@ const HomeScreen = () => {
             </svg>
           </Draggable>
         </div>
+        <div className="home-about-wrapper">
+          <div className="home-about-outer-wrapper">
+            <div className="home-about-inner-wrapper">
+              <p>
+                fun design is a network for design enthusiasts dedicated to
+                equip you with all the skills and resources you need to
+                supercharge your design career, freelance and agency journey,
+                helping you connect designers over the state. Join a growing
+                community, get peer insights, and discover exciting business
+                opportunities and collaborations.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
