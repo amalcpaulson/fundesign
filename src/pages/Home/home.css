@@ -129,12 +129,12 @@
 .home-about-star-one {
   position: absolute;
   left: 10%;
-  bottom: -100%;
+  margin-top: 9%;
 }
 .home-about-star-two {
   position: absolute;
+  margin-bottom: 7%;
   right: 11%;
-  bottom: 40%;
 }
 @media screen and (max-width: 1000px) {
 }
@@ -159,53 +159,59 @@
 }
 /* ################################# */
 /* About - Home */
-.home-about-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 30px;
-  padding: 0%;
-  margin: 0%;
-}
-.home-about-content-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 5px;
-  align-items: center;
-  justify-content: center;
-}
-
-.home-about-content-individual {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-  border-radius: 10px;
-  gap: 15px;
-  width: 340px;
-}
-.home-about-content-wrapper :hover {
-  box-shadow: 0px 10px 30px 0px rgba(138, 108, 227, 0.15);
-}
-.home-about-content-individual > div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  text-align: center;
-}
-.home-about-content-individual > a {
+.about-home-wrapper {
+  margin-top: 7%;
   display: flex;
   align-items: center;
-  justify-content: center;
-  color: #8a6ce3;
   width: 100%;
-  gap: 5px;
+  gap: 5%;
+  justify-content: center;
 }
-
+.about-home-left-img {
+  max-width: 450px;
+  min-width: 300px;
+}
+.about-home-left-img > img {
+  width: 100%;
+  max-width: 450px;
+  min-width: 300px;
+}
+.about-home-right-content {
+  max-width: 450px;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-home-right-content-div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.about-home-right-individual {
+  display: flex;
+  gap: 10px;
+  font-size: 23px;
+  font-weight: 500;
+  max-width: 450px;
+  min-width: 300px;
+}
+.text-color-violet {
+  background: radial-gradient(
+    1678.18% 50.89% at 73.3% 92.71%,
+    #884fff 0%,
+    #bf9bff 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media screen and (max-width: 930px) {
+  .about-home-wrapper {
+    flex-direction: column;
+    padding: 0px 5px;
+  }
+}
 /* ################################# */
 /* Projects - Home */
 
