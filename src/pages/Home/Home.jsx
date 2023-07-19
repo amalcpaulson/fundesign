@@ -22,10 +22,10 @@ const Home = () => {
         <Landing />
         <About />
         <Projects />
-        <Software />
+        {/* <Software />
         <Team />
         <Contact />
-        <Footer />
+        <Footer /> */}
       </div>
      
       
