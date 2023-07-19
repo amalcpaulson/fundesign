@@ -61,10 +61,9 @@ const HomeScreen = () => {
   const p20y = widthHeight.height - widthHeight.height * 0.38;
   const p21x = widthHeight.width - widthHeight.width * 0.35; //dot right coc
   const p21y = widthHeight.height - widthHeight.height * 0.13;
-  const p22x = widthHeight.width - widthHeight.width * 0.3;
-  const p22y = widthHeight.height - widthHeight.height * 0.3;
 
   if (widthHeight.width < 1000) {
+    
   }
   return (
     <div className="landing-page-wrapper">
