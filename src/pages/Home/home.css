@@ -11,8 +11,7 @@
   height: fit-content;
   background: rgba(25, 11, 46, 1);
   color: white;
-    background: url("../../assets/Spotlight.png") center top/cover
-    no-repeat;
+  background: url("../../assets/Spotlight.png") center top/cover no-repeat;
 }
 /* ################################# */
 /* Landing - Home */
@@ -134,14 +133,87 @@
   left: 10%;
   margin-top: 9%;
 }
+.home-about-star-one>svg{
+  width: 150px;
+}
 .home-about-star-two {
   position: absolute;
   margin-bottom: 7%;
   right: 11%;
 }
+.home-about-star-two>svg{
+  width: 150px;
+}
+@media screen and (max-width: 1200px) {
+  .home-about-wrapper {
+    bottom: -14%;
+  }
+  .home-about-outer-wrapper {
+    width: 80%;
+  }
+  .home-about-inner-wrapper {
+    padding: 15px 40px;
+  }
+  .home-about-star-one {
+    left: 3%;
+  }
+  .home-about-star-two {
+    right: 4%;
+  }
+}
 @media screen and (max-width: 1000px) {
+  .landing-page-content h2 {
+    font-size: 35px;
+  }
+  .home-about-star-one>svg{
+  width: 125px;
+}
+
+.home-about-star-two>svg{
+  width: 120px;
+}
+.home-about-star-one {
+
+  margin-top: 20%;
+}
+
+.home-about-star-two {
+  margin-bottom: 20%;
+}
+}
+@media screen and (max-width: 780px) {
+  .landing-page-content > .landing-page-main-content {
+    width: 70%;
+  }
+  .landing-page-content h2 {
+    font-size: 30px;
+  }
 }
 @media screen and (max-width: 500px) {
+    .home-about-wrapper {
+    bottom: -10%;
+  }
+  .landing-page-content > .landing-page-main-content {
+    width: 80%;
+  }
+  .landing-page-content h2 {
+    font-size: 26px;
+  }
+    .home-about-outer-wrapper {
+    width: 90%;
+  }
+    .home-about-inner-wrapper {
+    padding: 10px 20px;
+  }
+  .home-about-star-one {
+  left: -3%;
+  margin-top: 45%;
+}
+
+.home-about-star-two {
+  margin-bottom: 45%;
+  right: -3%;
+}
 }
 /* ################################# */
 /* HomeDrag - Home */
@@ -173,13 +245,11 @@
 .about-home-left-img {
   max-width: 450px;
   min-width: 300px;
-
 }
 .about-home-left-img > img {
   width: 100%;
   max-width: 450px;
   min-width: 300px;
-  
 }
 .about-home-right-content {
   max-width: 450px;

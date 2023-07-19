@@ -57,15 +57,15 @@ const HomeScreen = () => {
   const p18y = widthHeight.height - widthHeight.height * 0.15;
   const p19x = widthHeight.width - widthHeight.width * 0.7; //dot on p
   const p19y = widthHeight.height - widthHeight.height * 0.555;
-  const p20x = widthHeight.width - widthHeight.width * 0.6;//dot below explore
+  const p20x = widthHeight.width - widthHeight.width * 0.6; //dot below explore
   const p20y = widthHeight.height - widthHeight.height * 0.38;
-  const p21x = widthHeight.width - widthHeight.width * 0.35;//dot right coc
+  const p21x = widthHeight.width - widthHeight.width * 0.35; //dot right coc
   const p21y = widthHeight.height - widthHeight.height * 0.13;
   const p22x = widthHeight.width - widthHeight.width * 0.3;
   const p22y = widthHeight.height - widthHeight.height * 0.3;
 
-  console.log(p1x, p1y);
-  console.log(p2x, p2y);
+  if (widthHeight.width < 1000) {
+  }
   return (
     <div className="landing-page-wrapper">
       <div className="landing-page-content">
@@ -1643,8 +1643,7 @@ const HomeScreen = () => {
           <div className="home-about-star-one">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="153"
-              height="153"
+             
               viewBox="0 0 153 153"
               fill="none"
             >
@@ -1707,8 +1706,7 @@ const HomeScreen = () => {
           <div className="home-about-star-two">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="153"
-              height="153"
+            
               viewBox="0 0 153 153"
               fill="none"
             >
