@@ -2,6 +2,8 @@ import React from "react";
 import "../../pages/Home/home.css";
 import cdw from "../../assets/Home/projects/cdw.png";
 import mulearn from "../../assets/Home/projects/mulearn.png";
+import wrap from "../../assets/Home/projects/wrap.png";
+import saras from "../../assets/Home/projects/saras.png";
 
 const projects = () => {
   const data = [
@@ -24,22 +26,22 @@ const projects = () => {
       weblink: "https://mulearn-cce.vercel.app/",
     },
     {
-      image: cdw,
+      image: wrap,
       bgcolor: "#FFF1F8",
-      title: "CODe DESIGN WEEK WEBSITE",
+      title: "WRAP WEB APPLICATION",
       para: "Through our dashboard design process amal c paulson has contributed his 100% effort in wasting this.Through our design process amal c paulson has contributed his 100%.",
-      buttoncolor: "#A3004C",
-      designlink: "https://codedesignweek.netlify.app/",
-      weblink: "https://codedesignweek.netlify.app/",
+      buttoncolor: "#009743",
+      designlink: "https://wrap-web-app.netlify.app/",
+      weblink: "https://wrap-web-app.netlify.app/",
     },
     {
-      image: mulearn,
+      image: saras,
       bgcolor: "#F0F0FF",
-      title: "Mulearn CCE WEBSITE",
-      para: "Through our dashboard design process enric s neelamkavil has contributed his 100% effort in wasting this.Through our design process enric s neelamkavil has contributed his 100%.",
-      buttoncolor: "#6E6ED9",
-      designlink: "https://mulearn-cce.vercel.app/",
-      weblink: "https://mulearn-cce.vercel.app/",
+      title: "SARAH’S TECHNO WEBSITE",
+      para: "Through our dashboard design process amal c paulson has contributed his 100% effort in wasting this.Through our design process amal c paulson has contributed his 100%.",
+      buttoncolor: "#F48A01",
+      designlink: "https://saras-techno.vercel.app/",
+      weblink: "https://saras-techno.vercel.app/",
     },
   ];
   return (
