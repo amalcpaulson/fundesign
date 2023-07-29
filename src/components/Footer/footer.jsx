@@ -189,13 +189,15 @@ const footer = () => {
           </p>
         </div>
       </div>
-      <div>
+      <div className="footer-projection-part">
         <img src={logo} alt="" />
-        <div>
-          <a href="">Terms of Use</a>
-          <p></p>
-          <a href="">Privacy Policy</a>
-          <div>
+        <div className="footer-inner-projection">
+          <div className="flex footer-a-tag-iner">
+            <a href="">Terms of Use</a>
+            <p></p>
+            <a href="">Privacy Policy</a>
+          </div>
+          <div className="footer-social-media-wrapper">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="31"
