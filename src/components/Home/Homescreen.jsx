@@ -31,7 +31,7 @@ const HomeScreen = () => {
   const p5y = widthHeight.height - widthHeight.height * 0.77;
   const p6x = widthHeight.width - widthHeight.width * 0.78; //ps
   const p6y = widthHeight.height - widthHeight.height * 0.84;
-  const p7x = widthHeight.width - widthHeight.width * 0.85; //star under ps
+  const p7x = widthHeight.width - widthHeight.width * 0.95; //star under ps
   const p7y = widthHeight.height - widthHeight.height * 0.73;
   const p8x = widthHeight.width - widthHeight.width * 0.65; //star right of xd
   const p8y = widthHeight.height - widthHeight.height * 0.3;
@@ -63,7 +63,6 @@ const HomeScreen = () => {
   const p21y = widthHeight.height - widthHeight.height * 0.13;
 
   if (widthHeight.width < 1000) {
-    
   }
   return (
     <div className="landing-page-wrapper">
@@ -86,11 +85,9 @@ const HomeScreen = () => {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="100"
-              height="100"
               viewBox="0 0 129 127"
               fill="none"
-              className="dragComponents"
+              className="dragComponents pt-logo"
             >
               <g filter="url(#filter0_d_433_34)">
                 <path
@@ -150,11 +147,9 @@ const HomeScreen = () => {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="100"
-              height="100"
               viewBox="0 0 114 146"
               fill="none"
-              className="dragComponents"
+              className="dragComponents pt-logo"
             >
               <g filter="url(#filter0_d_433_39)">
                 <path
@@ -216,11 +211,9 @@ const HomeScreen = () => {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="100"
-              height="108"
               viewBox="0 0 110 108"
               fill="none"
-              className="dragComponents"
+              className="dragComponents pt-logo"
             >
               <g filter="url(#filter0_d_433_42)">
                 <path
@@ -280,11 +273,9 @@ const HomeScreen = () => {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="100"
-              height="100"
               viewBox="0 0 108 101"
               fill="none"
-              className="dragComponents"
+              className="dragComponents pt-logo"
             >
               <g filter="url(#filter0_d_433_51)">
                 <path
@@ -374,11 +365,9 @@ const HomeScreen = () => {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="95"
-              height="100"
               viewBox="0 0 95 123"
               fill="none"
-              className="dragComponents"
+              className="dragComponents pt-logo"
             >
               <g filter="url(#filter0_d_433_63)">
                 <path
@@ -452,11 +441,9 @@ const HomeScreen = () => {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="100"
-              height="100"
               viewBox="0 0 128 126"
               fill="none"
-              className="dragComponents"
+              className="dragComponents pt-logo"
             >
               <g filter="url(#filter0_d_433_69)">
                 <path
@@ -517,11 +504,9 @@ const HomeScreen = () => {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="200"
-              height="200"
-              viewBox="0 0 217 208"
+              viewBox="0 0 160 160"
               fill="none"
-              className="dragComponents"
+              className="dragComponents cellestial"
             >
               <g filter="url(#filter0_d_438_332)">
                 <path
@@ -590,11 +575,9 @@ const HomeScreen = () => {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="110"
-              height="110"
-              viewBox="0 0 132 126"
+              viewBox="0 0 112 106"
               fill="none"
-              className="dragComponents"
+              className="dragComponents pt-logo"
             >
               <g filter="url(#filter0_d_442_249)">
                 <path
@@ -663,11 +646,9 @@ const HomeScreen = () => {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="200"
-              height="200"
-              viewBox="0 0 215 207"
+              viewBox="0 0 160 160"
               fill="none"
-              className="dragComponents"
+              className="dragComponents cellestial"
             >
               <g filter="url(#filter0_d_442_247)">
                 <path
@@ -680,8 +661,6 @@ const HomeScreen = () => {
                   id="filter0_d_442_247"
                   x="0.838474"
                   y="0.548446"
-                  width="213.43"
-                  height="206.151"
                   filterUnits="userSpaceOnUse"
                   color-interpolation-filters="sRGB"
                 >
@@ -736,11 +715,8 @@ const HomeScreen = () => {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="43"
-              height="43"
-              viewBox="0 0 43 43"
               fill="none"
-              className="dragComponents"
+              className="dragComponents ball43"
             >
               <g filter="url(#filter0_d_442_236)">
                 <circle
@@ -815,7 +791,7 @@ const HomeScreen = () => {
               height="30"
               viewBox="0 0 30 30"
               fill="none"
-              className="dragComponents"
+              className="dragComponents ball30"
             >
               <g filter="url(#filter0_d_442_241)">
                 <circle
@@ -886,11 +862,9 @@ const HomeScreen = () => {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="43"
-              height="43"
               viewBox="0 0 43 43"
               fill="none"
-              className="dragComponents"
+              className="dragComponents ball43"
             >
               <g filter="url(#filter0_d_442_237)">
                 <circle
@@ -961,11 +935,10 @@ const HomeScreen = () => {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="40"
-              height="40"
-              viewBox="0 0 43 43"
+              
+              viewBox="0 0 40 40"
               fill="none"
-              className="dragComponents"
+              className="dragComponents ball40"
             >
               <g filter="url(#filter0_d_442_246)">
                 <circle
@@ -1036,11 +1009,10 @@ const HomeScreen = () => {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="43"
-              height="43"
+           
               viewBox="0 0 43 43"
               fill="none"
-              className="dragComponents"
+              className="dragComponents ball43"
             >
               <g filter="url(#filter0_d_442_237)">
                 <circle
@@ -1111,11 +1083,10 @@ const HomeScreen = () => {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="30"
-              height="30"
+             
               viewBox="0 0 30 30"
               fill="none"
-              className="dragComponents"
+              className="dragComponents ball30"
             >
               <g filter="url(#filter0_d_442_238)">
                 <circle
@@ -1186,11 +1157,10 @@ const HomeScreen = () => {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="70"
-              height="70"
+           
               viewBox="0 0 70 70"
               fill="none"
-              className="dragComponents"
+              className="dragComponents ball70"
             >
               <g filter="url(#filter0_d_442_243)">
                 <circle
@@ -1205,8 +1175,7 @@ const HomeScreen = () => {
                   id="filter0_d_442_243"
                   x="0.121216"
                   y="0.121216"
-                  width="69.7576"
-                  height="69.7576"
+                 
                   filterUnits="userSpaceOnUse"
                   color-interpolation-filters="sRGB"
                 >
@@ -1261,11 +1230,10 @@ const HomeScreen = () => {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="30"
-              height="30"
+              
               viewBox="0 0 30 30"
               fill="none"
-              className="dragComponents"
+              className="dragComponents ball30"
             >
               <g filter="url(#filter0_d_442_242)">
                 <circle
@@ -1280,8 +1248,7 @@ const HomeScreen = () => {
                   id="filter0_d_442_242"
                   x="0.795458"
                   y="0.795458"
-                  width="28.4091"
-                  height="28.4091"
+                  
                   filterUnits="userSpaceOnUse"
                   color-interpolation-filters="sRGB"
                 >
@@ -1336,11 +1303,10 @@ const HomeScreen = () => {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="30"
-              height="30"
+             
               viewBox="0 0 30 30"
               fill="none"
-              className="dragComponents"
+              className="dragComponents ball30"
             >
               <g filter="url(#filter0_d_442_242)">
                 <circle
@@ -1411,11 +1377,10 @@ const HomeScreen = () => {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="70"
-              height="70"
+          
               viewBox="0 0 70 70"
               fill="none"
-              className="dragComponents"
+              className="dragComponents ball70"
             >
               <g filter="url(#filter0_d_442_245)">
                 <circle
@@ -1486,11 +1451,10 @@ const HomeScreen = () => {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="70"
-              height="70"
+             
               viewBox="0 0 70 70"
               fill="none"
-              className="dragComponents"
+              className="dragComponents ball70"
             >
               <g filter="url(#filter0_d_442_245)">
                 <circle
@@ -1626,6 +1590,7 @@ const HomeScreen = () => {
             </svg>
           </Draggable>
         </div>
+        {/* Mobile version */}
         <div className="home-about-wrapper">
           <div className="home-about-outer-wrapper">
             <div className="home-about-inner-wrapper">
@@ -1642,7 +1607,6 @@ const HomeScreen = () => {
           <div className="home-about-star-one">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-             
               viewBox="0 0 153 153"
               fill="none"
             >
@@ -1705,7 +1669,6 @@ const HomeScreen = () => {
           <div className="home-about-star-two">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-            
               viewBox="0 0 153 153"
               fill="none"
             >

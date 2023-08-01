@@ -1,5 +1,6 @@
 .footer-wrapper {
   width: 100%;
+  height: fit-content;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -56,6 +57,7 @@
 }
 .footer-a-tag-iner {
   gap: 5px;
+  align-items: center;
 }
 .footer-projection-part a {
   text-decoration: none;
@@ -66,7 +68,10 @@
   gap: 10px;
   justify-content: space-between;
 }
-
+.footer-copy-right{
+    position: relative;
+    right: 10%;
+}
 @media screen and (max-width: 1000px) {
   .footer-wrapper {
     flex-direction: column-reverse;
@@ -83,5 +88,12 @@
     align-items: center;
     padding-top: 0;
     gap: 10px;
+  }
+}
+@media screen and (max-width: 500px){
+  .footer-navigation-wrapper {
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 0px 30px;
   }
 }

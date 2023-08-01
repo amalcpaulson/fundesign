@@ -182,7 +182,7 @@ const footer = () => {
             <p>CAREERS</p>
           </a>
         </div>
-        <div>
+        <div className="footer-copy-right">
           <p>
             Copyright © 2023. All Rights Reserved.{" "}
             <span style={{ color: "#A86DFF" }}>fun design</span> foundation
@@ -194,7 +194,13 @@ const footer = () => {
         <div className="footer-inner-projection">
           <div className="flex footer-a-tag-iner">
             <a href="">Terms of Use</a>
-            <p></p>
+            <div
+              style={{
+                width: "2px",
+                height: "18px",
+                background: "white",
+              }}
+            ></div>
             <a href="">Privacy Policy</a>
           </div>
           <div className="footer-social-media-wrapper">

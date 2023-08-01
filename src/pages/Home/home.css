@@ -98,6 +98,33 @@
 .dragComponents {
   cursor: grab;
 }
+.homedrag-wrapper-desk .pt-logo {
+  width: 100px;
+  height: 100px;
+}
+
+.homedrag-wrapper-desk .cellestial {
+  width: 160px;
+  height: 160px;
+}
+
+/* right top of sketch,on p ,bottom of explore*/
+.homedrag-wrapper-desk .ball70 {
+  width: 70px;
+  height: 70px;
+}
+.homedrag-wrapper-desk .ball43 {
+  width: 43px;
+  height: 43px;
+}
+.homedrag-wrapper-desk .ball40 {
+  width: 40px;
+  height: 40px;
+}
+.homedrag-wrapper-desk .ball30 {
+  width: 30px;
+  height: 30px;
+}
 
 .home-about-wrapper {
   position: absolute;
@@ -133,7 +160,7 @@
   left: 10%;
   margin-top: 9%;
 }
-.home-about-star-one>svg{
+.home-about-star-one > svg {
   width: 150px;
 }
 .home-about-star-two {
@@ -141,7 +168,7 @@
   margin-bottom: 7%;
   right: 11%;
 }
-.home-about-star-two>svg{
+.home-about-star-two > svg {
   width: 150px;
 }
 @media screen and (max-width: 1200px) {
@@ -165,21 +192,20 @@
   .landing-page-content h2 {
     font-size: 35px;
   }
-  .home-about-star-one>svg{
-  width: 125px;
-}
+  .home-about-star-one > svg {
+    width: 125px;
+  }
 
-.home-about-star-two>svg{
-  width: 120px;
-}
-.home-about-star-one {
+  .home-about-star-two > svg {
+    width: 120px;
+  }
+  .home-about-star-one {
+    margin-top: 20%;
+  }
 
-  margin-top: 20%;
-}
-
-.home-about-star-two {
-  margin-bottom: 20%;
-}
+  .home-about-star-two {
+    margin-bottom: 20%;
+  }
 }
 @media screen and (max-width: 780px) {
   .landing-page-content > .landing-page-main-content {
@@ -190,7 +216,7 @@
   }
 }
 @media screen and (max-width: 500px) {
-    .home-about-wrapper {
+  .home-about-wrapper {
     bottom: -10%;
   }
   .landing-page-content > .landing-page-main-content {
@@ -199,21 +225,21 @@
   .landing-page-content h2 {
     font-size: 26px;
   }
-    .home-about-outer-wrapper {
+  .home-about-outer-wrapper {
     width: 90%;
   }
-    .home-about-inner-wrapper {
+  .home-about-inner-wrapper {
     padding: 10px 20px;
   }
   .home-about-star-one {
-  left: -3%;
-  margin-top: 45%;
-}
+    left: -3%;
+    margin-top: 45%;
+  }
 
-.home-about-star-two {
-  margin-bottom: 45%;
-  right: -3%;
-}
+  .home-about-star-two {
+    margin-bottom: 45%;
+    right: -3%;
+  }
 }
 /* ################################# */
 /* HomeDrag - Home */
