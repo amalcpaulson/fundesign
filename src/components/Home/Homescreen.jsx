@@ -75,6 +75,7 @@ const HomeScreen = () => {
             <a href="">Explore Design</a>
           </div>
         </div>
+        {/* Desktop */}
         <div className="homedrag-wrapper-desk shake">
           {/* ai */}
           <Draggable
@@ -166,8 +167,6 @@ const HomeScreen = () => {
                   id="filter0_d_433_39"
                   x="0.285156"
                   y="0.327148"
-                  width="112.953"
-                  height="145.374"
                   filterUnits="userSpaceOnUse"
                   color-interpolation-filters="sRGB"
                 >
@@ -935,7 +934,6 @@ const HomeScreen = () => {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              
               viewBox="0 0 40 40"
               fill="none"
               className="dragComponents ball40"
@@ -1009,7 +1007,6 @@ const HomeScreen = () => {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-           
               viewBox="0 0 43 43"
               fill="none"
               className="dragComponents ball43"
@@ -1083,7 +1080,6 @@ const HomeScreen = () => {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-             
               viewBox="0 0 30 30"
               fill="none"
               className="dragComponents ball30"
@@ -1157,7 +1153,6 @@ const HomeScreen = () => {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-           
               viewBox="0 0 70 70"
               fill="none"
               className="dragComponents ball70"
@@ -1175,7 +1170,6 @@ const HomeScreen = () => {
                   id="filter0_d_442_243"
                   x="0.121216"
                   y="0.121216"
-                 
                   filterUnits="userSpaceOnUse"
                   color-interpolation-filters="sRGB"
                 >
@@ -1230,7 +1224,6 @@ const HomeScreen = () => {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              
               viewBox="0 0 30 30"
               fill="none"
               className="dragComponents ball30"
@@ -1248,7 +1241,6 @@ const HomeScreen = () => {
                   id="filter0_d_442_242"
                   x="0.795458"
                   y="0.795458"
-                  
                   filterUnits="userSpaceOnUse"
                   color-interpolation-filters="sRGB"
                 >
@@ -1303,7 +1295,6 @@ const HomeScreen = () => {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-             
               viewBox="0 0 30 30"
               fill="none"
               className="dragComponents ball30"
@@ -1377,7 +1368,6 @@ const HomeScreen = () => {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-          
               viewBox="0 0 70 70"
               fill="none"
               className="dragComponents ball70"
@@ -1451,7 +1441,6 @@ const HomeScreen = () => {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-             
               viewBox="0 0 70 70"
               fill="none"
               className="dragComponents ball70"
@@ -1525,11 +1514,9 @@ const HomeScreen = () => {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="34"
-              height="34"
-              viewBox="0 0 34 34"
+              viewBox="0 0 30 30"
               fill="none"
-              className="dragComponents"
+              className="dragComponents ball30"
             >
               <g filter="url(#filter0_d_442_261)">
                 <circle
@@ -1590,6 +1577,7 @@ const HomeScreen = () => {
             </svg>
           </Draggable>
         </div>
+        {/* tab version */}
         {/* Mobile version */}
         <div className="home-about-wrapper">
           <div className="home-about-outer-wrapper">
