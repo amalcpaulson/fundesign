@@ -20,6 +20,7 @@
 
   height: 100vh;
   color: white;
+
   /* background: url("../../assets/Home/landing/fog.png") center center/cover
     no-repeat; */
 }
@@ -29,9 +30,11 @@
   top: 0%;
   left: 0%;
   width: 100vw;
+  height: fit-content;
   z-index: 9000;
   display: grid;
   place-items: center;
+  overflow-x: hidden; /* hidden and scroll occur */
 }
 .landing-page-content > .landing-page-main-content {
   width: 55%;
@@ -298,7 +301,7 @@
     margin-bottom: 50%;
     right: 0%;
   }
-   .home-about-star-one > svg {
+  .home-about-star-one > svg {
     width: 100px;
     height: 100px;
   }
